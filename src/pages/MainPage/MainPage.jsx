@@ -1,9 +1,13 @@
 import React from "react";
 import "./MainPage.css";
+import { Timeline } from "../../components";
+
 const MainPage = () => {
   return (
     <>
-      <h1>Celestia Website</h1>
+      <div className="main__page">
+      <Timeline />
+    </div>
     </>
   );
 };
