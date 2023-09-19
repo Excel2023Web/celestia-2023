@@ -1,11 +1,12 @@
 import React from "react";
 import "./MainPage.css";
-import { Timeline } from "../../components";
+import { Timeline,Panelist } from "../../components";
 
 const MainPage = () => {
   return (
     <>
       <div className="main__page">
+      <Panelist />
       <Timeline />
     </div>
     </>

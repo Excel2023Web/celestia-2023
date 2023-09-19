@@ -70,7 +70,7 @@ const Timeline = () => {
                         border: "3px solid rgba(146, 146, 146, 0.00)",
                     }}
                     contentArrowStyle={{ 
-                        borderRight: "12px solid  #7f7f7fe3" 
+                        borderRight: "12px solid  #000000" 
                     }}
                     >
                     <h3 className="vertical-timeline-element-title">Heading</h3> 
@@ -102,7 +102,7 @@ const Timeline = () => {
                         border: "3px solid rgba(146, 146, 146, 0.00)",
                     }}
                     contentArrowStyle={{ 
-                        borderRight: "12px solid #7f7f7fe3" 
+                        borderRight: "12px solid #000000" 
                     }}
                     date="Final Day"
                     >
