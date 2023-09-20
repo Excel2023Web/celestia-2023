@@ -1,0 +1,51 @@
+.speakers__main {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3rem;
+  /* justify-content: center; */
+}
+.spkrs__container {
+  width: 100%;
+  display: flex;
+  gap: 4rem;
+  padding: 3rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.spkr__card {
+  width: 10rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+}
+.spkr__card > img {
+    border-radius: 50%;
+    background: linear-gradient(145deg, #FAFAFA, #FAFAFA);
+    box-shadow:  5px 5px 10px #FAFAFA,
+                 -5px -5px 10px #FAFAFA;
+}
+.spkr__content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.spkr__content > img {
+  height: 6rem;
+}
+.spkr__context {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.spkr__context >button{
+    border-radius: 5px;
+    width: 5rem;
+    height: 1.5rem;
+}
