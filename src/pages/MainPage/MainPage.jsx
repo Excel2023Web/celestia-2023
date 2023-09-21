@@ -1,14 +1,16 @@
 import React from "react";
 import "./MainPage.css";
-import { Timeline, Panelist, Speakers } from "../../components";
+import { Navbar, Timeline, Panelist, Speakers, Contacts } from "../../components";
 
 const MainPage = () => {
   return (
     <>
       <div className="main__page">
+        <Navbar />
+        <Speakers />
         <Panelist />
         <Timeline />
-        <Speakers />
+        <Contacts />
       </div>
     </>
   );

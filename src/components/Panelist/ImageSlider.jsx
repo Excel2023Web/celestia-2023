@@ -7,8 +7,8 @@ import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 
 function ImageSlider() {
   const [goToSlide, setGoToSlide] = useState(0);
-  const [offsetRadius, setOffsetRadius] = useState(1);
-  const [showNavigation] = useState(true);
+  const [offsetRadius] = useState(1);
+  // const [showNavigation] = useState(true);
   const [carouselConfig] = useState(config.gentle);
   const [autoPlay] = useState(true);
   const [interval] = useState(2500);
@@ -67,46 +67,65 @@ function ImageSlider() {
   }, [interval, slides.length]);
 
   return (
-    <div style={{ width: "50%", height: "500px", margin: "0 auto" }}>
-      <Carousel
-        slides={slides}
-        goToSlide={goToSlide}
-        offsetRadius={offsetRadius}
-        animationConfig={carouselConfig}
-        autoPlay={autoPlay}
-        interval={interval}
-      />
-      <div
-        style={{
-          margin: "0 auto",
-          marginTop: "2rem",
-          width: "50%",
-          display: "flex",
-          justifyContent: "space-around",
-          gap: "4rem"
-        }}
-      >
-        <div>
-          <button
-            onClick={() => {
+    // <div style={{ width: "50%", height: "500px", margin: "0 auto" }}>
+    //   <Carousel
+    //     slides={slides}
+    //     goToSlide={goToSlide}
+    //     offsetRadius={offsetRadius}
+    //     animationConfig={carouselConfig}
+    //     autoPlay={autoPlay}
+    //     interval={interval}
+    //   />
+    //   <div
+    //     style={{
+    //       margin: "0 auto",
+    //       marginTop: "2rem",
+    //       width: "50%",
+    //       display: "flex",
+    //       justifyContent: "space-around",
+    //       gap: "4rem"
+    //     }}
+    //   >
+    //     <div>
+    //       <button
+    //         onClick={() => {
+    //           setGoToSlide((prevGoToSlide) => prevGoToSlide - 1);
+    //         }}
+    //         className="left__button"
+    //       >
+    //         <FaAngleLeft />
+    //       </button>
+    //       &nbsp; &nbsp; &nbsp; &nbsp;
+    //       <button
+    //         onClick={() => {
+    //           setGoToSlide((prevGoToSlide) => prevGoToSlide + 1);
+    //         }}
+    //         className="right__button"
+    //       >
+    //         <FaAngleRight />
+    //       </button>
+    //     </div>
+    //   </div>
+    // </div>
+    <div className="panelist__caroussel" data-aos="fade-up">
+        <button className="panelist__caroussel__btn" onClick={() => {
               setGoToSlide((prevGoToSlide) => prevGoToSlide - 1);
-            }}
-            className="left__button"
-          >
-            <FaAngleLeft />
-          </button>
-          &nbsp; &nbsp; &nbsp; &nbsp;
-          <button
-            onClick={() => {
-              setGoToSlide((prevGoToSlide) => prevGoToSlide + 1);
-            }}
-            className="right__button"
-          >
-            <FaAngleRight />
-          </button>
+            }} data-aos="fade-up"><FaAngleLeft /></button>
+        <div className="panelist__caroussel__img" data-aos="fade-up">
+          <Carousel
+            slides={slides}
+            goToSlide={goToSlide}
+            offsetRadius={offsetRadius}
+            animationConfig={carouselConfig}
+            autoPlay={autoPlay}
+            interval={interval}
+          />
         </div>
+
+        <button className="panelist__caroussel__btn" onClick={() => {
+              setGoToSlide((prevGoToSlide) => prevGoToSlide + 1);
+            }} data-aos="fade-up"><FaAngleRight /></button>
       </div>
-    </div>
   );
 }
 

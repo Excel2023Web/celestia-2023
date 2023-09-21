@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Bungee&family=Montserrat:wght@700&display=swap');
+.contact__out_container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+    background:linear-gradient(174deg, #090909 20.08%, #071C44 95.51%);
+    padding-top: 1rem;
+}
+.contact__card {
+    width: 10rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: row;
+}
+.contacts__container {
+    width: 100%;
+    display: flex;
+    gap: 25rem;
+    padding: 3rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.contact__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.contact__context {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.contact__context >h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    color:#C9C9C9;
+}
+
+.contact__context >p {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+
+}
+
+.icons__container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.icons__container >a {
+    color: #C9C9C9;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 50%; */
+    width: 1.56rem;
+    height: 1.56rem;
+    font-size: 1.25rem;
+    /* padding: 0.625rem 0.625rem; */
+    /* background: #ffffff; */
+}
+
+.contact__card >img {
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow:  7px 5px 8px rgba(115, 198, 247, 0.50), 3px 2px 13px rgba(115, 198, 247, 0.50);
+}

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Bungee&family=Montserrat:wght@700&display=swap');
 .speakers__main {
   width: 100%;
   min-height: 80vh;
@@ -6,6 +7,7 @@
   align-items: center;
   padding-bottom: 3rem;
   background:linear-gradient(174deg, #090909 20.08%, #071C44 95.51%);
+  padding-top: 1rem;
   /* justify-content: center; */
 }
 .spkrs__container {
@@ -46,7 +48,19 @@
   align-items: center;
 }
 .spkr__context >button{
-    border-radius: 5px;
-    width: 5rem;
-    height: 1.5rem;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #939393;
+    width: 6rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.spkr__context >p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  color: #ffffff;
+  font-size: 1.25rem;
 }
