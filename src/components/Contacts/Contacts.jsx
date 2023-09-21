@@ -9,7 +9,7 @@ const Contacts = () => {
     <>
         <div className='contact__out_container' id='contact'>
             <div className='panelist__container'>
-                <p className='panelist__heading' data-aos="fade-up">Contact Us</p>
+                <p className='panelist__heading' data-aos="fade-up">Contacts</p>
                 <img className='header__line' src={Line} alt=" " data-aos="fade-up"></img> 
             </div>
             <div className='contacts__container'>
