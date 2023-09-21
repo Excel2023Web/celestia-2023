@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 
 #about-header img{
@@ -22,8 +22,9 @@
 }
 
 #text{
-    font-size: 3rem;
-    font-family: 'Montserrat';
+    font-size: 2.2rem;
+    font-family: 'Bungee';
+    text-align:center;
 }
 
 #about-body{
@@ -35,11 +36,45 @@
 
 #body-right{
     margin: 2em;
-    font-family: buda;
-    font-size: 1.3em;
+    color: #F0E8E8;
+    font-family: Buda;
+    font-weight: 300;
+    letter-spacing: 0.36px;
+    line-height: 2rem;
+    word-wrap: break-word;
+    font-size: 1.3rem;
+    width: 50%;
 }
+
+
 
 #body-left img{
     height: 65vh;
 }
 
+@media screen and (max-width: 800px) {
+    #about-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+    }
+    #body-right{
+        color: #F0E8E8;
+        font-family: Buda;
+        font-weight: 300;
+        letter-spacing: 0.36px;
+        word-wrap: break-word;
+        font-size: 1.3rem;
+        width: 80%;
+        
+    }
+
+    #body-left img{
+        height: 30vh;
+    }
+
+    #about{
+        height: 155vh;
+    }
+}
