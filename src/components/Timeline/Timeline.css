@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* flex: cover; */
     justify-content: center;
     min-height: 100vh;
     width: 100vw;
@@ -35,17 +34,12 @@
     letter-spacing: 0.05rem;
     margin-bottom: 0rem;
     line-height: 2.6rem;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
 }
 
 .timeline__section {
     margin-top: 3rem;
 }
 .timeline__element_txt{
-    /* border: 2px solid green; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +47,6 @@
     flex-direction: column;
     border-radius: 20px;
     background: linear-gradient(54deg, rgba(127, 127, 127, 0.89) 9.06%, rgba(217, 217, 217, 0) 92.22%);
-/* box-shadow: 6px 11px 60px 21px rgba(68, 123, 150, 0.53); */
 }
 
 .vertical-timeline-element--work p{
@@ -73,7 +66,6 @@
     font-size:1.35rem !important;
     font-family: 'Brygada 1918';
     font-style: normal;
-    /* text-align:initial; */
 }
 
 .vertical-timeline-element-content{

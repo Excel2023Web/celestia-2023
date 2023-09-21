@@ -5,3 +5,5 @@ export {default as Panelist} from "./Panelist/Panelist";
 export {default as Contacts} from "./Contacts/Contacts";
 export {default as Navbar} from "./Navbar/Navbar";
 export { default as Loader } from './Loader/Loader';
+export { default as About } from './About/About';
+
