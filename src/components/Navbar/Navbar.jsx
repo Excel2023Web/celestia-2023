@@ -44,8 +44,8 @@ function Navbar() {
           </NavLink>
         </div>
         <div className="nav_contents">
-          <NavLink className="nav__link" >Home</NavLink>
-          <NavLink className="nav__link" >About</NavLink>
+          <NavLink className="nav__link" to=" ">Home</NavLink>
+          <NavLink className="nav__link" to=" ">About</NavLink>
           <NavLink className="nav__link" to="speakers" smooth={true} duration={500}>Speakers</NavLink>
           <NavLink className="nav__link" to="panelist" smooth={true} duration={500}>Panelists</NavLink>
           <NavLink className="nav__link" to="timeline" smooth={true} duration={500}>Schedule</NavLink>

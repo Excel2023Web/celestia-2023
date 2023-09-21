@@ -1,22 +1,10 @@
-import React from 'react';
-import "./Loader.css";
-import { Circles } from 'react-loader-spinner';
-
+import React from 'react'
+import './Loader.css'
 const Loader = () => {
   return (
-    <>
-    <div className='loader'>
-    <Circles
-        height="80"
-        width="80"
-        color="#091C3F"
-        ariaLabel="circles-loading"
-        wrapperStyle={{}}
-        wrapperClass=""
-        visible={true}
-    />
+    <div className='loader__container'>
+    <span class="loader"></span>
     </div>
-    </>
   )
 }
 

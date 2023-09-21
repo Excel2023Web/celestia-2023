@@ -2,6 +2,7 @@ import React from 'react';
 import './Speakers.css';
 import Line from "../../assets/png/header_line.png";
 import verticalLine from '../../assets/svg/spkr__line_card.svg';
+import { FaLinkedinIn } from "react-icons/fa6";
 
 const Speakers = () => {
   return (
@@ -18,7 +19,7 @@ const Speakers = () => {
                 <img src={verticalLine} alt="" />
                 <div className="spkr__context">
                     <p>MATHEW</p>
-                    <button>CONNECT</button>
+                    <button> <FaLinkedinIn size={12} color='#071C44'/>  CONNECT </button>
                 </div>
             </div>
         </div>
@@ -29,7 +30,7 @@ const Speakers = () => {
                 <img src={verticalLine} alt="" data-aos="fade-up"/>
                 <div className="spkr__context" data-aos="fade-up">
                     <p>MATHEW</p>
-                    <button>CONNECT</button>
+                    <button> <FaLinkedinIn size={12} color='#071C44'/>  CONNECT </button>
                 </div>
             </div>
         </div>
@@ -40,7 +41,7 @@ const Speakers = () => {
                 <img src={verticalLine} alt="" />
                 <div className="spkr__context" >
                     <p>MATHEW</p>
-                    <button>CONNECT</button>
+                    <button> <FaLinkedinIn size={12} color='#071C44'/>  CONNECT </button>
                 </div>
             </div>
         </div>
@@ -51,7 +52,7 @@ const Speakers = () => {
                 <img src={verticalLine} alt=""/>
                 <div className="spkr__context">
                     <p>MATHEW</p>
-                    <button>CONNECT</button>
+                    <button> <FaLinkedinIn size={12} color='#071C44'/>  CONNECT </button>
                 </div>
             </div>
         </div>
@@ -62,7 +63,7 @@ const Speakers = () => {
                 <img src={verticalLine} alt="" />
                 <div className="spkr__context">
                     <p>MATHEW</p>
-                    <button>CONNECT</button>
+                    <button> <FaLinkedinIn size={12} color='#071C44'/>  CONNECT </button>
                 </div>
             </div>
         </div>
@@ -73,7 +74,7 @@ const Speakers = () => {
                 <img src={verticalLine} alt="" />
                 <div className="spkr__context">
                     <p>MATHEW</p>
-                    <button>CONNECT</button>
+                    <button> <FaLinkedinIn size={12} color='#071C44'/>  CONNECT </button>
                 </div>
             </div>
         </div>
