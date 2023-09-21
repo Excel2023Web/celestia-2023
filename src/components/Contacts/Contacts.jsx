@@ -17,8 +17,10 @@ const Contacts = () => {
                     <img src="https://avatars.githubusercontent.com/u/110590339?s=200&v=4" alt=" " />
                     <div className="contact__content">
                         <div className="contact__context">
+                            <div className='contact__context__name'>
                             <h1>Mathew</h1>
                             <p>Chairperson</p>
+                            </div>
                             <div className='icons__container'>
                                 <a 
                                 target="_blank"
@@ -49,8 +51,10 @@ const Contacts = () => {
                     <img src="https://avatars.githubusercontent.com/u/110590339?s=200&v=4" alt=" " />
                     <div className="contact__content">
                         <div className="contact__context">
+                        <div className='contact__context__name'>
                             <h1>Mathew</h1>
-                            <p>Designation</p>
+                            <p>Chairperson</p>
+                            </div>
                             <div className='icons__container'>
                                 <a 
                                 target="_blank"
@@ -81,8 +85,10 @@ const Contacts = () => {
                     <img src="https://avatars.githubusercontent.com/u/110590339?s=200&v=4" alt=" " />
                     <div className="contact__content">
                         <div className="contact__context">
+                        <div className='contact__context__name'>
                             <h1>Mathew</h1>
-                            <p>Designation</p>
+                            <p>Chairperson</p>
+                            </div>
                             <div className='icons__container'>
                                 <a 
                                 target="_blank"
@@ -113,8 +119,10 @@ const Contacts = () => {
                     <img src="https://avatars.githubusercontent.com/u/110590339?s=200&v=4" alt=" " />
                     <div className="contact__content">
                         <div className="contact__context">
+                        <div className='contact__context__name'>
                             <h1>Mathew</h1>
-                            <p>Designation</p>
+                            <p>Chairperson</p>
+                            </div>
                             <div className='icons__container'>
                                 <a 
                                 target="_blank"

@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
     background:linear-gradient(174deg, #090909 20.08%, #071C44 95.51%);
     padding-top: 1rem;
 }
@@ -44,13 +44,13 @@
     justify-content: center;
     align-items: flex-start;
 }
-.contact__context >h1 {
+.contact__context__name >h1 {
     font-family: 'Montserrat';
     font-style: normal;
     color:#C9C9C9;
 }
 
-.contact__context >p {
+.contact__context__name >p {
     font-size: 1rem;
     font-family: 'Montserrat';
 
@@ -60,6 +60,7 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
+    padding-top: 1.5rem;
 }
 
 .icons__container >a {
@@ -76,7 +77,16 @@
 }
 
 .contact__card >img {
+    width: 10rem;
     border-radius: 50%;
     background: #ffffff;
     box-shadow:  7px 5px 8px rgba(115, 198, 247, 0.50), 3px 2px 13px rgba(115, 198, 247, 0.50);
+}
+
+.contact__context__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 0rem;
 }
