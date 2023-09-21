@@ -44,12 +44,12 @@ function Navbar() {
           </NavLink>
         </div>
         <div className="nav_contents">
-          <NavLink className="nav__link" to="#home">Home</NavLink>
-          <NavLink className="nav__link" to="#about" smooth={true}>About</NavLink>
-          <NavLink className="nav__link">Speakers</NavLink>
-          <NavLink className="nav__link" to="#panelist">Panelists</NavLink>
-          <NavLink className="nav__link" to="#timeline">Schedule</NavLink>
-          <NavLink className="nav__link">Contact Us</NavLink>
+          <NavLink className="nav__link" to=" ">Home</NavLink>
+          <NavLink className="nav__link" to=" ">About</NavLink>
+          <NavLink className="nav__link" to="speakers" smooth={true} duration={500}>Speakers</NavLink>
+          <NavLink className="nav__link" to="panelist" smooth={true} duration={500}>Panelists</NavLink>
+          <NavLink className="nav__link" to="timeline" smooth={true} duration={500}>Schedule</NavLink>
+          <NavLink className="nav__link" to="contact" smooth={true} duration={500}>Contact Us</NavLink>
         </div>
         {/* <a href='https://rzp.io/l/finnext' target='_blank' rel="noreferrer">
           <button className="nav_btn">Register</button>
@@ -96,7 +96,7 @@ function Navbar() {
             <NavLink
               data-aos="fade-right"
               data-aos-duration="600"
-              to="/#speakers"
+              to="speakers"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
@@ -105,7 +105,7 @@ function Navbar() {
             <NavLink
               data-aos="fade-right"
               data-aos-duration="800"
-              to="/#panelist"
+              to="panelist"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
@@ -114,7 +114,7 @@ function Navbar() {
             <NavLink
               data-aos="fade-right"
               data-aos-duration="1000"
-              to="/#timeline"
+              to="timeline"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
@@ -123,7 +123,7 @@ function Navbar() {
             <NavLink
               data-aos="fade-right"
               data-aos-duration="1400"
-              to="/#contact"
+              to="contact"
               onClick={handleDrawerClose}
               className="navmob__link"
             >

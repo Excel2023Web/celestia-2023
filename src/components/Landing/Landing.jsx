@@ -4,7 +4,7 @@ import "./Landing.css";
 const Landing = () => {
   return (
     <>
-    <div>Landing</div>
+    <div id='home'>Landing</div>
     </>
   )
 }

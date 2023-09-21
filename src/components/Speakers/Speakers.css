@@ -1,39 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Bungee&family=Montserrat:wght@700&display=swap');
 .speakers__main {
   width: 100%;
-  min-height: 80vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 3rem;
+  /* padding-bottom: 3rem; */
+  background:linear-gradient(174deg, #090909 20.08%, #071C44 95.51%);
+  padding-top: 3rem;
+  padding-bottom: 7rem; 
   /* justify-content: center; */
 }
 .spkrs__container {
   width: 100%;
+  gap: 7rem;
   display: flex;
-  gap: 4rem;
-  padding: 3rem;
+  justify-content:center ;
+  /* padding: 3rem; */
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: row; 
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem
 }
 .spkr__card {
-  width: 10rem;
+  /* width: 10rem; */
   height: 15rem;
   display: flex;
   flex-direction: column;
 }
 .spkr__card > img {
+    width: 15rem;
     border-radius: 50%;
     background: linear-gradient(145deg, #FAFAFA, #FAFAFA);
-    box-shadow:  5px 5px 10px #FAFAFA,
-                 -5px -5px 10px #FAFAFA;
+    border: 3px solid #FFF;
 }
 .spkr__content {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  gap: 2rem;
+  gap: 1rem;
+  padding-left: 1rem;
 }
 .spkr__content > img {
   height: 6rem;
@@ -45,7 +53,23 @@
   align-items: center;
 }
 .spkr__context >button{
-    border-radius: 5px;
-    width: 5rem;
-    height: 1.5rem;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #939393;
+    width: 7rem;
+    height: 2.2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.spkr__context >p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  color: #ffffff;
+  font-size: 1.25rem;
 }

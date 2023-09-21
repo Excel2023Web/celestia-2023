@@ -20,9 +20,9 @@ const Timeline = () => {
   return (
     <div className="timeline" id="timeline">
       <div className='timeline__container__out'>
-        <p className='timeline__heading'>Timeline</p>
-        <img className='header__line' src={Line} alt=" "></img>
-        <div className="timeline__section" data-aos="zoom-in">
+        <p className='timeline__heading' data-aos="fade-up">Timeline</p>
+        <img className='header__line' src={Line} alt=" " data-aos="fade-up"></img>
+        <div className="timeline__section" data-aos="fade-up">
             <VerticalTimeline theme={customTheme} lineColor="#21b8cb" layout='2-columns'>
                 <VerticalTimelineElement
                 className="vertical-timeline-element--work "

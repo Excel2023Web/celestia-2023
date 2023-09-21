@@ -8,10 +8,11 @@
     min-height: 100vh;
     width: 100vw;
     /* background: linear-gradient(to bottom right, #000 0%, #071C44 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #000 0%, #071C44 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #000 0%, #071C44 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #000 0%, #071C44 50%) top right / 50% 50% no-repeat;  */
-    background-image: url("../../assets/svg/timeline_bg.svg");
+    background-image: url("../../assets/png/earth-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom:5rem;
+    padding-top: 1rem;
 }
 
 .timeline__container__out {
@@ -90,8 +91,8 @@
 }
 
 .vertical-timeline--two-columns .vertical-timeline-element-icon {
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     margin-left: -8px;
     box-shadow: none;
     top: 23px;
