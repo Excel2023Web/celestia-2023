@@ -28,6 +28,9 @@
   height: 15rem;
   display: flex;
   flex-direction: column;
+  padding-left: 3rem;
+  padding-top: 3rem;
+  padding-right: 3rem
 }
 .spkr__card > img {
     width: 15rem;
@@ -51,6 +54,7 @@
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
+  padding-left: 2.1rem;
 }
 .spkr__context >button{
     border-radius: 8px;
@@ -73,3 +77,4 @@
   color: #ffffff;
   font-size: 1.25rem;
 }
+
