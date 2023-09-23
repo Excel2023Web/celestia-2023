@@ -1,7 +1,7 @@
 import React, { useEffect} from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import "react-vertical-timeline-component/style.min.css";
-import Line from "../../assets/png/header_line.png";
+import timeline from "../../assets/svg/timeline.svg";
 import "./Timeline.css"
 import Aos from "aos";
 
@@ -20,8 +20,9 @@ const Timeline = () => {
   return (
     <div className="timeline" id="timeline">
       <div className='timeline__container__out'>
-        <p className='timeline__heading' data-aos="fade-up">Timeline</p>
-        <img className='header__line' src={Line} alt=" " data-aos="fade-up"></img>
+        {/* <p className='panelist__heading' data-aos="fade-up">Timeline</p> */}
+        <img className='timeline__heading' src={timeline} alt=" " data-aos="fade-up"></img>
+        </div>
         <div className="timeline__section" data-aos="fade-up">
             <VerticalTimeline theme={customTheme} lineColor="#21b8cb" layout='2-columns'>
                 <VerticalTimelineElement
@@ -114,7 +115,7 @@ const Timeline = () => {
                     </p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
-          </div>
+          {/* </div> */}
         </div>
     </div>
   )

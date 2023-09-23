@@ -67,46 +67,6 @@ function ImageSlider() {
   }, [interval, slides.length]);
 
   return (
-    // <div style={{ width: "50%", height: "500px", margin: "0 auto" }}>
-    //   <Carousel
-    //     slides={slides}
-    //     goToSlide={goToSlide}
-    //     offsetRadius={offsetRadius}
-    //     animationConfig={carouselConfig}
-    //     autoPlay={autoPlay}
-    //     interval={interval}
-    //   />
-    //   <div
-    //     style={{
-    //       margin: "0 auto",
-    //       marginTop: "2rem",
-    //       width: "50%",
-    //       display: "flex",
-    //       justifyContent: "space-around",
-    //       gap: "4rem"
-    //     }}
-    //   >
-    //     <div>
-    //       <button
-    //         onClick={() => {
-    //           setGoToSlide((prevGoToSlide) => prevGoToSlide - 1);
-    //         }}
-    //         className="left__button"
-    //       >
-    //         <FaAngleLeft />
-    //       </button>
-    //       &nbsp; &nbsp; &nbsp; &nbsp;
-    //       <button
-    //         onClick={() => {
-    //           setGoToSlide((prevGoToSlide) => prevGoToSlide + 1);
-    //         }}
-    //         className="right__button"
-    //       >
-    //         <FaAngleRight />
-    //       </button>
-    //     </div>
-    //   </div>
-    // </div>
     <div className="panelist__caroussel" data-aos="fade-up">
         <button className="panelist__caroussel__btn" onClick={() => {
               setGoToSlide((prevGoToSlide) => prevGoToSlide - 1);

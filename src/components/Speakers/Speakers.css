@@ -6,7 +6,9 @@
   flex-direction: column;
   align-items: center;
   /* padding-bottom: 3rem; */
-  background:linear-gradient(174deg, #090909 20.08%, #071C44 95.51%);
+  background-image: url("../../assets/png/speakers_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 3rem;
   padding-bottom: 7rem; 
   /* justify-content: center; */
@@ -28,6 +30,9 @@
   height: 15rem;
   display: flex;
   flex-direction: column;
+  padding-left: 3rem;
+  padding-top: 3rem;
+  padding-right: 3rem
 }
 .spkr__card > img {
     width: 15rem;
@@ -49,8 +54,14 @@
 .spkr__context {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
+  /* padding-left: 2.1rem; */
+}
+.spkr__context >a {
+  font-family: 'Montserrat';
+    font-style: normal;
+    color: #939393;
 }
 .spkr__context >button{
     border-radius: 8px;
@@ -67,9 +78,67 @@
     gap: 0.5rem;
 }
 
+.speaker__heading {
+  width: 25rem;
+  height: 8rem;
+}
+
 .spkr__context >p {
   font-family: 'Montserrat';
   font-style: normal;
   color: #ffffff;
   font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 1300px) {
+  .spkr__card > img {
+    width: 12rem;
+  }
+
+  .spkr__context {
+    padding-left: 0.9rem;
+  }
+
+}
+@media (min-device-width: 20px) and (max-device-width: 500px){
+   
+}
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 800px) {
+  .spkrs__container {
+    gap: 6.4rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 400px) {
+
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+
+}
+
+
+@media only screen and (device-width: 768px) {
+
 }

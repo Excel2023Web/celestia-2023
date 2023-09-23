@@ -6,8 +6,11 @@
     align-items: center;
     justify-content: flex-start;
     min-height: 80vh;
-    width: 100vw;
-    background:linear-gradient(174deg, #090909 20.08%, #071C44 95.51%);
+    width: 100%;
+    background-image: url("../../assets/png/panelist_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 0.5; */
     /* background-size: contain;
     background-repeat: no-repeat; */
     padding-bottom:3rem;
@@ -26,14 +29,8 @@
 }
 
 .panelist__heading {
-    color: #ffffff;
-    font-family: "Bungee";
-    font-size: 3.5rem;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0.05rem;
-    margin-bottom: 0rem;
-    line-height: 2.6rem;
+  width: 25rem;
+  height: 8rem;
 }
 
   .slide img{
@@ -84,7 +81,6 @@
       width: 50%;
       height: 25rem;
       margin: 0 auto;
-      /* background-color: red; */
       display: flex;
   }
   
@@ -98,11 +94,79 @@
       font-size:1.2rem;
       text-align: center;
       border-radius: 13px;
-      color: #1A94CC;
+      color: rgba(212, 76, 59, 1);
       font-size: 1.4rem;
       background-color:#191617 ;
-      box-shadow: 0px 2px 12px #74cae7;
+      box-shadow: -3px 1px 12px #ffffff;
       cursor: pointer;
       margin: 0 9rem;
       /* Adjust the padding as needed */
+  }
+
+ 
+  @media (min-device-width: 20px) and (max-device-width: 500px){
+   
+  }
+  @media only screen and (max-width: 1200px) {
+    .panelist__heading {
+      font-size: 3rem;
+    }
+    .panelist__caroussel__btn {
+      width: 3.3rem;
+      height: 3rem;
+      font-size: 1.2rem;
+  }
+  }
+  
+  @media only screen and (max-width: 1100px) {
+    .panelist__heading {
+      font-size: 2.8rem;
+  }
+    /* .panelist__caroussel {
+      width: 90%;
+    } */
+    .panelist__caroussel__btn {
+      width: 3rem;
+      height: 2.5rem;
+      font-size: 1rem;
+      border-radius: 11px;
+  }
+  .panelist__caroussel__img {
+    width: 40%;
+    height: 20rem;
+}
+  }
+  
+  @media screen and (max-width: 992px) {
+  
+  }
+  
+  @media screen and (max-width: 800px) {
+
+  }
+  
+  @media screen and (max-width: 700px) {
+    .panelist__heading {
+      font-size: 2.6rem;
+  }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .panelist__heading {
+      font-size: 2.4rem;
+  }
+  }
+  
+  @media screen and (max-width: 400px) {
+  
+  }
+    
+  @media only screen and (min-device-width: 320px) and (max-device-width: 
+    480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+  
+  }
+  
+  
+  @media only screen and (device-width: 768px) {
+  
   }
