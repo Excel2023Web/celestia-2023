@@ -112,16 +112,63 @@
     .contact__img {
         width: 26rem;
     }
+
+    .contact__context__name >h2 {
+        font-size: 1.4rem;
+    }
+
+    .contact__card >img {
+        width: 14rem;
+    }    
+
+}
+
+@media only screen and (max-width: 1275px) {
+    .contact__card {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
 }
 @media (min-device-width: 20px) and (max-device-width: 500px){
    
 }
 @media only screen and (max-width: 1200px) {
-    
+    .contact__card {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1115px) {
+    .contact__card >img {
+        width: 13rem;
+    }  
+
+    .contact__card {
+        width: 28rem;
+        height: 9rem;
+    }
+
+    .contact__context__name >h2 {
+        font-size: 1.3rem;
+    }
+    .contact__context__name >p {
+        font-size: 0.95rem;
+    }
 }
 
 @media only screen and (max-width: 1100px) {
 
+}
+
+@media only screen and (max-width: 1050px) {
+    .contact__card {
+        width: 25rem;
+        height: 9rem;
+    }
+    .contact__context {
+        width: 13rem;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -130,9 +177,46 @@
     }
 }
 
+@media only screen and (max-width: 955px) {
+    .contact__card {
+        width: 22.5rem;
+    }
+    .contact__context__name >h2 {
+        font-size: 1.2rem;
+    }
+    .contact__card >img {
+        width: 11rem;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .contact__card {
+        width: 21.5rem;
+    }
+    .contact__context {
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .contact__card {
+        height: 7rem;
+        padding-left: 1rem;
+        padding-right: 5rem;
+    }
+    .contact__context {
+        width: 14rem;
+    }
+}
+
+
 @media screen and (max-width: 800px) {
     .contact__img {
         width: 22rem;
+    }
+
+    .contact__context {
+        padding-left: 4rem;
     }
 }
 
@@ -143,6 +227,37 @@
 @media screen and (max-width: 500px) {
     .contact__img {
         width: 20rem;
+    }
+    .contact__card >img {
+        width: 10rem;
+    }
+    .contact__context__name >h2 {
+        font-size: 1.1rem;
+    }
+    .contact__context {
+        padding-right: 0rem;
+        padding-left: 5rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    .contact__context {
+        padding-right: 0rem;
+        padding-left: 4.5rem;
+    }
+    .contact__card >img {
+        width: 9rem;
+    }
+    .icons__container >a {
+        font-size: 1.15rem;
+    }
+    .contact__context__name >h2 {
+        font-size: 1rem;
+    }
+    .contact__context__name >p {
+        font-size: 0.85rem;
+    }
+    .contact__card {
+        padding-left: 4rem;
     }
 }
 

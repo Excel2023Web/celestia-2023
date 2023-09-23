@@ -63,12 +63,19 @@
   font-family: 'Montserrat';
     font-style: normal;
     color: #939393;
+    font-size: 1rem;
 }
 .speaker__contact {
     border-radius: 8px;
-    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     font-family: 'Montserrat';
     font-style: normal;
+    opacity: 1;
     color: #939393;
     width: 7rem;
     height: 2.2rem;
@@ -145,9 +152,9 @@
     font-size: 0.9rem;
   }
 
-  .speaker__contact >a{
+  /* .speaker__contact >a{
     font-size: 0.7rem;
-  }
+  } */
 
 }
 
@@ -167,7 +174,9 @@
 }
 
 @media screen and (max-width: 700px) {
-
+  .spkrs__container {
+    line-height: 1rem;
+  }
 }
 
 @media screen and (max-width: 600px) {

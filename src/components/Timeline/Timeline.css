@@ -116,10 +116,13 @@
         margin-left: 11px;
         top: 17px;
     }
-    .vertical-timeline-element-content-arrow {
-        border: 7px solid transparent #7f7f7fe3;
-        border-right: 7px solid #fff;
-    }
+
+    /* .vertical-timeline-element-content-arrow {
+        border: 7px solid #7f7f7fe3;
+        border-right-color: #fff;
+        display: none;
+    } */
+
     .vertical-timeline-element-content {
         box-shadow: 0px 4px 4px 5px  rgba(212, 76, 59, 0.25);
     }
@@ -129,7 +132,11 @@
 }
 
 @media only screen and (max-width: 1100px) {
-
+    /* .vertical-timeline-element-content-arrow {
+        border: 7px solid #7f7f7fe3;
+        border-right-color: #fff;
+        display: none;
+    } */
 }
 
 @media screen and (max-width: 992px) {
