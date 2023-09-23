@@ -6,17 +6,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    min-height: 100vh;
+    /* height: 140vh; */
     width: 100%;
     background-image: url("../../assets/png/panelist_bg.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom:3rem;
-    padding-top: 2rem;
+    padding-bottom:10rem;
+    /* padding-top: 2rem; */
+    
 }
 
 .panelist__container {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,8 +66,15 @@
 .panelist__caroussel {
       width: 100%;
       display: flex;
-      justify-content: space-between;
+      flex-direction: row;
+      height: 100%;
+      /* justify-content: space-evenly; */
+      /* gap: 9rem; */
       align-items: center;
+}
+.slider__img{
+  width: 30rem;
+  height:25rem;
 }
   
 .panelist__caroussel__img {
@@ -88,7 +96,7 @@
       background-color:#191617 ;
       box-shadow: -3px 1px 12px #ffffff;
       cursor: pointer;
-      margin: 0 9rem;
+      /* margin: 0 9rem; */
   }
 
   /* .image-description {
@@ -104,19 +112,21 @@
   }
   */
 
-  .image-container {
+  .panelist__image-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
-    position: relative;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
+    gap: 1rem;
+
   }
   
-  .image-description {
+  .panelist__image-description {
     font-family: 'Work Sans';
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   @media (min-device-width: 20px) and (max-device-width: 500px){
@@ -150,7 +160,9 @@
   }
   
   @media screen and (max-width: 992px) {
-  
+    .panelist__caroussel__btn{
+      /* display: none; */
+    }
   }
   
   @media screen and (max-width: 800px) {
@@ -161,16 +173,49 @@
     .panelist__heading {
       font-size: 2.6rem;
   }
+  .slider__img{
+    width: 25rem;
+    height:20rem;
+  }
   }
   
   @media screen and (max-width: 600px) {
     .panelist__heading {
       font-size: 2.4rem;
   }
+  .slider__img{
+    width: 23rem;
+    height:18rem;
+  }
   }
   
-  @media screen and (max-width: 400px) {
-  
+  @media screen and (max-width:525px) {
+    .slider__img{
+      width: 20rem;
+      height:15rem;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .slider__img{
+      width: 17rem;
+      height:12rem;
+    }
+
+  }
+  @media screen and (max-width:360px) {
+    .slider__img{
+      width: 14rem;
+      height:7rem;
+    }
+    .panelist__caroussel__btn{
+      display: none;
+    }
+  }
+  @media screen and (max-width:435px) {
+    .slider__img{
+      width: 15rem;
+      height:10rem;
+    }
   }
     
   @media only screen and (min-device-width: 320px) and (max-device-width: 
