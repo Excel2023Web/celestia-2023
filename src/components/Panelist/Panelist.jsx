@@ -2,6 +2,7 @@ import React from "react";
 import "./Panelist.css";
 import heading from "../../assets/svg/panelist_heading.svg"
 import ImageSlider from "./ImageSlider";
+// import Stars from "../Stars/Stars"
 
 const Panelist = () => {
   return (
@@ -13,6 +14,7 @@ const Panelist = () => {
       </div>
       <ImageSlider/>
       </div>
+      {/* <Stars /> */}
       </>
   )
 }

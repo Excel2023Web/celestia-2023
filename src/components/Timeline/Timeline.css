@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Bungee&family=Montserrat:wght@700&family=Work+Sans&display=swap');
 .timeline {
     display: flex;
     flex-direction: column;
@@ -12,7 +11,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom:5rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 .timeline__container__out {
@@ -46,33 +45,33 @@
 .vertical-timeline-element--work p{
     font-size: 1rem;
     color: #ffff;
-    font-family: 'Brygada 1918';
+    font-family: 'Work Sans';
 }
 
 .vertical-timeline-element-title{
     font-size: 1.25rem;
     color: #ffff;
-    font-family: 'Brygada 1918';
+    font-family: 'Work Sans';
 }
 
 .vertical-timeline-element-date{
     color: #ffffff;
     font-size:1.35rem !important;
-    font-family: 'Brygada 1918';
+    font-family: 'Work Sans';
     font-style: normal;
 }
 
 .vertical-timeline-element-content{
-    background: linear-gradient(51deg, rgba(128, 128, 128, 0.99) 12.28%, rgba(128, 128, 128, 0.20) 94.44%);
-    box-shadow: 0px 4px 4px 5px rgba(212, 76, 59, 0.25);
-    backdrop-filter: blur( 20px );
-    -webkit-backdrop-filter: blur( 20px );
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba(212, 76, 59, 0.25);
+    backdrop-filter: blur( 11px );
+    -webkit-backdrop-filter: blur( 11px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .vertical-timeline-element-content > p{
-    font-family: "Brygada 1918";
+    font-family: "Work Sans";
 }
 
 .vertical-timeline-element {

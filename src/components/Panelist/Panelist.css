@@ -8,13 +8,14 @@
     min-height: 80vh;
     width: 100%;
     background-image: url("../../assets/png/panelist_bg.png");
+    /* background: linear-gradient(142deg, rgba(16, 27, 44, 0.50) 7.55%, rgba(55, 55, 64, 0.50) 83.28%); */
     background-size: cover;
     background-repeat: no-repeat;
     /* opacity: 0.5; */
     /* background-size: contain;
     background-repeat: no-repeat; */
     padding-bottom:3rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
     /* flex: cover; */
 }
 
@@ -94,7 +95,7 @@
       font-size:1.2rem;
       text-align: center;
       border-radius: 13px;
-      color: rgba(212, 76, 59, 1);
+      color: #d44c3b;
       font-size: 1.4rem;
       background-color:#191617 ;
       box-shadow: -3px 1px 12px #ffffff;

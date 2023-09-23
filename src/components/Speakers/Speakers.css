@@ -37,8 +37,8 @@
 .spkr__card > img {
     width: 15rem;
     border-radius: 50%;
-    background: linear-gradient(145deg, #FAFAFA, #FAFAFA);
-    border: 3px solid #FFF;
+    /* background: linear-gradient(145deg, #FAFAFA, #FAFAFA);
+    border: 3px solid #FFF; */
 }
 .spkr__content {
   width: 100%;
@@ -58,12 +58,12 @@
   align-items: center;
   /* padding-left: 2.1rem; */
 }
-.spkr__context >a {
+.speaker__contact >a {
   font-family: 'Montserrat';
     font-style: normal;
     color: #939393;
 }
-.spkr__context >button{
+.speaker__contact {
     border-radius: 8px;
     background-color: #ffffff;
     font-family: 'Montserrat';
@@ -95,8 +95,12 @@
     width: 12rem;
   }
 
-  .spkr__context {
+  /* .spkr__context {
     padding-left: 0.9rem;
+  } */
+
+  .spkr__card {
+    width: 15rem;
   }
 
 }
