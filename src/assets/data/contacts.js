@@ -1,31 +1,32 @@
 import img from "../png/contact_img.png";
+import { abhishek, mathew, vishnu } from "../png/contacts";
 export const contactsData = [
     {
       id: 1,
-      name: "Nasreen K Basheer",
+      name: "Mathew Davis",
       designation: "Chairperson",
-      image: img,
+      image: mathew,
       phone: "9605204433",
       email: "nasreenkbasheer.mec@gmail.com",
       linkedIn: "https://www.linkedin.com/in/nasreen-k-basheer-6795331a5/",
     },
     {
       id: 2,
-      name: "Hemanth Sagar J C",
+      name: "Vishnu S",
       designation: "General Secretary",
-      image: img,
-      phone: "7012910210",
-      email: "hemanthsagar.mec@gmail.com",
-      linkedIn: "https://www.linkedin.com/in/hemanth-sagar-j-c-292a98195",
-    },
-    {
-      id: 3,
-      name: "Sebin Davis",
-      designation: "Joint Secretary",
-      image: img,
+      image: vishnu,
       phone: "8921212340",
       email: "sebindavis.mec@gmail.com",
       linkedIn: "https://www.linkedin.com/in/sebin-davis-344782195",
+    },
+    {
+      id: 3,
+      name: "Abhishek P",
+      designation: "Joint Secretary",
+      image: abhishek,
+      phone: "7012910210",
+      email: "hemanthsagar.mec@gmail.com",
+      linkedIn: "https://www.linkedin.com/in/hemanth-sagar-j-c-292a98195",
     },
     {
       id: 4,
