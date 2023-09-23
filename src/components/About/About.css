@@ -63,9 +63,7 @@
 }
 
 @media only screen and (max-width: 1100px) {
-    .about-body {
-        /* font-size: 1.1rem; */
-    }
+    
 }
 
 @media screen and (max-width: 992px) {
@@ -83,9 +81,7 @@
 }
 @media screen and (max-width: 700px) {
 
-    .about-body {
-        /* font-size: 1.1rem; */
-    }
+    
     
 }
 
