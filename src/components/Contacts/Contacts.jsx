@@ -1,45 +1,47 @@
 import React from 'react';
 import './Contacts.css';
-import Line from "../../assets/png/header_line.png";
+import Contact from "../../assets/svg/contact_us.svg";
 import { MdLocalPhone,MdEmail } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
+import { contactsData } from "../../assets/data/contacts";
 
 const Contacts = () => {
   return (
     <>
         <div className='contact__out_container' id='contact'>
             <div className='panelist__container'>
-                <p className='panelist__heading' data-aos="fade-up">Contacts</p>
-                <img className='header__line' src={Line} alt=" " data-aos="fade-up"></img> 
+                {/* <p className='panelist__heading' data-aos="fade-up">Contacts</p> */}
+                <img className='contact__img' src={Contact} alt=" " data-aos="fade-up"></img> 
             </div>
             <div className='contacts__container'>
+            {contactsData.map((contact) => (
                 <div className="contact__card" data-aos="fade-up">
-                    <img src="https://avatars.githubusercontent.com/u/110590339?s=200&v=4" alt=" " />
+                    <img src={contact.image} alt=" " />
                     <div className="contact__content">
                         <div className="contact__context">
                             <div className='contact__context__name'>
-                            <h1>Mathew</h1>
-                            <p>Chairperson</p>
+                            <h2>{contact.name}</h2>
+                            <p>{contact.designation}</p>
                             </div>
                             <div className='icons__container'>
                                 <a 
                                 target="_blank"
                                 rel="noreferrer"
-                                href='https://www.linkedin.com/in/nandini-p-8388b3250/'
+                                href={`mailto:${contact.email}`}
                                 >
                                     <MdEmail />
                                 </a>
                                 <a 
                                 target="_blank"
                                 rel="noreferrer"
-                                href='https://www.linkedin.com/in/nandini-p-8388b3250/'
+                                href={`tel:${contact.phone}`}
                                 >
                                     <MdLocalPhone />
                                 </a>
                                 <a 
                                 target="_blank"
                                 rel="noreferrer"
-                                href='https://www.linkedin.com/in/nandini-p-8388b3250/'
+                                href={contact.linkedIn}
                                 >
                                     <FaLinkedinIn />
                                 </a>
@@ -47,108 +49,7 @@ const Contacts = () => {
                         </div>
                     </div>
                 </div>
-                <div className="contact__card" data-aos="fade-up">
-                    <img src="https://avatars.githubusercontent.com/u/110590339?s=200&v=4" alt=" " />
-                    <div className="contact__content">
-                        <div className="contact__context">
-                        <div className='contact__context__name'>
-                            <h1>Mathew</h1>
-                            <p>Chairperson</p>
-                            </div>
-                            <div className='icons__container'>
-                                <a 
-                                target="_blank"
-                                rel="noreferrer"
-                                href='https://www.linkedin.com/in/nandini-p-8388b3250/'
-                                >
-                                    <MdEmail />
-                                </a>
-                                <a 
-                                target="_blank"
-                                rel="noreferrer"
-                                href='https://www.linkedin.com/in/nandini-p-8388b3250/'
-                                >
-                                    <MdLocalPhone />
-                                </a>
-                                <a 
-                                target="_blank"
-                                rel="noreferrer"
-                                href='https://www.linkedin.com/in/nandini-p-8388b3250/'
-                                >
-                                    <FaLinkedinIn />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="contact__card" data-aos="fade-up">
-                    <img src="https://avatars.githubusercontent.com/u/110590339?s=200&v=4" alt=" " />
-                    <div className="contact__content">
-                        <div className="contact__context">
-                        <div className='contact__context__name'>
-                            <h1>Mathew</h1>
-                            <p>Chairperson</p>
-                            </div>
-                            <div className='icons__container'>
-                                <a 
-                                target="_blank"
-                                rel="noreferrer"
-                                href='https://www.linkedin.com/in/nandini-p-8388b3250/'
-                                >
-                                    <MdEmail />
-                                </a>
-                                <a 
-                                target="_blank"
-                                rel="noreferrer"
-                                href='https://www.linkedin.com/in/nandini-p-8388b3250/'
-                                >
-                                    <MdLocalPhone />
-                                </a>
-                                <a 
-                                target="_blank"
-                                rel="noreferrer"
-                                href='https://www.linkedin.com/in/nandini-p-8388b3250/'
-                                >
-                                    <FaLinkedinIn />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="contact__card" data-aos="fade-up">
-                    <img src="https://avatars.githubusercontent.com/u/110590339?s=200&v=4" alt=" " />
-                    <div className="contact__content">
-                        <div className="contact__context">
-                        <div className='contact__context__name'>
-                            <h1>Mathew</h1>
-                            <p>Chairperson</p>
-                            </div>
-                            <div className='icons__container'>
-                                <a 
-                                target="_blank"
-                                rel="noreferrer"
-                                href='https://www.linkedin.com/in/nandini-p-8388b3250/'
-                                >
-                                    <MdEmail />
-                                </a>
-                                <a 
-                                target="_blank"
-                                rel="noreferrer"
-                                href='https://www.linkedin.com/in/nandini-p-8388b3250/'
-                                >
-                                    <MdLocalPhone />
-                                </a>
-                                <a 
-                                target="_blank"
-                                rel="noreferrer"
-                                href='https://www.linkedin.com/in/nandini-p-8388b3250/'
-                                >
-                                    <FaLinkedinIn />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            ))}
             </div>
         </div>
     </>

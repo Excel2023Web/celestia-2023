@@ -8,7 +8,7 @@
     min-height: 100vh;
     width: 100vw;
     /* background: linear-gradient(to bottom right, #000 0%, #071C44 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #000 0%, #071C44 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #000 0%, #071C44 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #000 0%, #071C44 50%) top right / 50% 50% no-repeat;  */
-    background-image: url("../../assets/png/earth-1.jpg");
+    background-image: url("../../assets/png/earth__bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom:5rem;
@@ -26,14 +26,8 @@
 }
 
 .timeline__heading {
-    color: #ffffff;
-    font-family: "Bungee";
-    font-size: 3.5rem;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0.05rem;
-    margin-bottom: 0rem;
-    line-height: 2.6rem;
+    width: 25rem;
+    height: 8rem;
 }
 
 .timeline__section {
@@ -69,8 +63,8 @@
 }
 
 .vertical-timeline-element-content{
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 6px 11px 60px 23px rgba(68, 123, 150, 0.48);
+    background: linear-gradient(51deg, rgba(128, 128, 128, 0.99) 12.28%, rgba(128, 128, 128, 0.20) 94.44%);
+    box-shadow: 0px 4px 4px 5px rgba(212, 76, 59, 0.25);
     backdrop-filter: blur( 20px );
     -webkit-backdrop-filter: blur( 20px );
     border-radius: 10px;
@@ -86,20 +80,85 @@
 }
 
 .vertical-timeline::before{
-    background:rgba(155, 155, 155, 0.95);
-    box-shadow: 5px 12px 18px 0px rgba(154, 154, 154, 0.85);
+    background:#706A76;
+    width: 0.5rem;
+    box-shadow: 1px 7px 21px 1px rgba(154, 154, 154, 0.85);
 }
 
 .vertical-timeline--two-columns .vertical-timeline-element-icon {
-    width: 18px;
-    height: 18px;
+    width: 1.3rem;
+    height: 1.3rem;
     margin-left: -8px;
     box-shadow: none;
     top: 23px;
     background: #D9D9D9;
-    box-shadow: 0px 2px 12px #74cae7;
+    box-shadow: 0px 2px 8px 7px rgba(212, 76, 59, 0.25);
 } 
 
 .header__line {
     width: 15rem;
+}
+
+@media only screen and (max-width: 1300px) {
+
+}
+@media (min-device-width: 20px) and (max-device-width: 500px){
+   
+}
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1170px) {
+    .vertical-timeline--two-columns .vertical-timeline-element-icon {
+        margin-left: 11px;
+        top: 17px;
+    }
+    .vertical-timeline-element-content-arrow {
+        border: 7px solid transparent #7f7f7fe3;
+        border-right: 7px solid #fff;
+    }
+    .vertical-timeline-element-content {
+        box-shadow: 0px -1px 12px 11px rgba(68, 123, 150, 0.48);
+    }
+    .vertical-timeline {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .vertical-timeline {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .vertical-timeline {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 400px) {
+
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+
+}
+
+
+@media only screen and (device-width: 768px) {
+
 }

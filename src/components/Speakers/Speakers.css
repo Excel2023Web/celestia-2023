@@ -6,7 +6,9 @@
   flex-direction: column;
   align-items: center;
   /* padding-bottom: 3rem; */
-  background:linear-gradient(174deg, #090909 20.08%, #071C44 95.51%);
+  background-image: url("../../assets/png/speakers_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 3rem;
   padding-bottom: 7rem; 
   /* justify-content: center; */
@@ -52,9 +54,14 @@
 .spkr__context {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
-  padding-left: 2.1rem;
+  /* padding-left: 2.1rem; */
+}
+.spkr__context >a {
+  font-family: 'Montserrat';
+    font-style: normal;
+    color: #939393;
 }
 .spkr__context >button{
     border-radius: 8px;
@@ -69,6 +76,11 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+}
+
+.speaker__heading {
+  width: 25rem;
+  height: 8rem;
 }
 
 .spkr__context >p {
