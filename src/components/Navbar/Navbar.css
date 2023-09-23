@@ -129,7 +129,7 @@ a {
     }
     .navbar__mob {
         /* background-color: #03012c; */
-        background: linear-gradient(180deg, #000 0%, #091C3F 100%); 
+        background: #000; 
         height: 100%;
         display: flex;
         flex-direction: column;
