@@ -267,6 +267,18 @@
         width: 17rem;
     }
 }
+@media screen and (max-width: 370px){
+    .contact__card{
+        width: 23rem;
+        height: 9rem;
+    }
+}
+@media screen and (max-width: 350px){
+    .contact__card{
+        width: 21rem;
+        height: 8.5rem;
+    }
+}
   
 @media only screen and (min-device-width: 320px) and (max-device-width: 
   480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
