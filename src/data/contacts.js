@@ -1,4 +1,4 @@
-export const contacts=[
+export const contactsData=[
     {
         name:"Mathew Davis",
         position:"Chairperson",
