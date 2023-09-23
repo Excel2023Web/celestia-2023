@@ -8,6 +8,7 @@ import {
   Contacts,
   About,
   Footer,
+  Landing,
 } from "../../components";
 
 const MainPage = () => {
@@ -15,12 +16,13 @@ const MainPage = () => {
     <>
       <div className="main__page">
         <Navbar />
+        <Landing />
         <About />
         <Speakers />
         <Panelist />
         <Timeline />
         <Contacts />
-        <Footer/>
+        <Footer />
       </div>
     </>
   );
