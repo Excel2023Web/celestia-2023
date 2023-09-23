@@ -2,7 +2,7 @@ import React from "react";
 import './Stars.css'
 const Stars = ({ children }) => {
   return (
-    <div>
+    <div className="stars__container">
       {children}
       <div id="stars"></div>
       <div id="stars2"></div>

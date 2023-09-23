@@ -12,7 +12,7 @@ function App() {
       <Suspense fallback={<Loader />}>
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<MainPage />} />
+          <Route path="/" element={<MainPage/>} />
         </Routes>
         </Suspense>
       </BrowserRouter>

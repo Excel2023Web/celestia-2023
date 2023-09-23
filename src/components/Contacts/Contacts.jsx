@@ -41,7 +41,7 @@ const Contacts = () => {
                                 <a 
                                 target="_blank"
                                 rel="noreferrer"
-                                href={contact.linkedIn}
+                                href={contact.linkedin}
                                 >
                                     <FaLinkedinIn />
                                 </a>
@@ -53,7 +53,7 @@ const Contacts = () => {
             </div>
         </div>
     </>
-  )
-}
+  );
+};
 
-export default Contacts
+export default Contacts;

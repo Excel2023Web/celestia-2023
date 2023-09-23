@@ -23,13 +23,13 @@
 .contacts__container {
     width: 100%;
     display: flex;
-    gap: 5rem;
-    padding: 3rem;
+    gap: 1rem;
+    padding: 2rem;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    /* padding-left: 3rem;
+    padding-right: 3rem; */
 }
 .contact__content {
     width: 100%;

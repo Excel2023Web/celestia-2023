@@ -1,4 +1,5 @@
 import img from "../png/contact_img.png";
+
 export const contactsData = [
     {
       id: 1,
@@ -29,6 +30,33 @@ export const contactsData = [
     },
     {
       id: 4,
+      name: "Sania Maria Sabu",
+      designation: "Social Initiatives Manager",
+      image: img,
+      phone: "7306928074",
+      email: "saniamariasabu.mec@gmail.com",
+      linkedIn: "https://www.linkedin.com/in/sania-maria-sabu-1b059a1b2/",
+    },
+    {
+      id: 5,
+      name: "Sania Maria Sabu",
+      designation: "Social Initiatives Manager",
+      image: img,
+      phone: "7306928074",
+      email: "saniamariasabu.mec@gmail.com",
+      linkedIn: "https://www.linkedin.com/in/sania-maria-sabu-1b059a1b2/",
+    },
+    {
+      id: 6,
+      name: "Sania Maria Sabu",
+      designation: "Social Initiatives Manager",
+      image: img,
+      phone: "7306928074",
+      email: "saniamariasabu.mec@gmail.com",
+      linkedIn: "https://www.linkedin.com/in/sania-maria-sabu-1b059a1b2/",
+    },
+    {
+      id: 7,
       name: "Sania Maria Sabu",
       designation: "Social Initiatives Manager",
       image: img,
