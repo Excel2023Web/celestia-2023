@@ -1,0 +1,96 @@
+/* Import the Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Bungee&family=Montserrat:wght@700&display=swap');
+
+/* Existing styles */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 50px;
+}
+
+.footer-left img {
+  max-width: 150px; 
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.social-link {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 28px;
+}
+
+.social-link:active {
+    color: orange; /* Change the color to orange */
+  }
+  
+
+/* Style for the center content (social links and "Made with Excel 2022") */
+.footer-center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style for the right image */
+.footer-right img {
+  max-width: 150px; /* Adjust the image size as needed */
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    margin-bottom: 20px;
+  }
+
+  .social-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-link {
+    margin-bottom: 10px;
+  }
+}
+
+/* Style for specific social media icons (e.g., Facebook) */
+.facebook-icon {
+  color: white; /* Facebook blue color */
+  font-size: 24px; /* Adjust the size as needed */
+  margin-right: 10px; /* Add spacing between icons */
+}
+
+/* Style for specific social media icons (e.g., Twitter) */
+.twitter-icon {
+  color: white; /* Twitter blue color */
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/* Style for specific social media icons (e.g., Instagram) */
+.instagram-icon {
+  color: white; /* Instagram purple color */
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/* Style for specific social media icons (e.g., LinkedIn) */
+.linkedin-icon {
+  color: white; /* LinkedIn blue color */
+  font-size: 24px;
+  margin-right: 10px;
+}
