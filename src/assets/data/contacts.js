@@ -1,5 +1,4 @@
 import img from "../png/contact_img.png";
-
 export const contactsData = [
     {
       id: 1,

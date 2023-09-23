@@ -48,7 +48,7 @@
   background-color: #ffff;
 }
 .footer_social_logos > a:hover {
-  background-color: #09203f;
+  background-color: #f69a06;
   color: #ffff;
   transform: rotate(360deg) ;
   transition: 0.2 ease-in;
