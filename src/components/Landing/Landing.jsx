@@ -1,7 +1,6 @@
 import React from "react";
 import "./Landing.css";
 import image from "../../assets/svg/astronaut-is-flying-space-suit_219493-15-removebg-preview 1.svg";
-import { motion } from "framer-motion";
 
 const Landing = () => {
   return (
