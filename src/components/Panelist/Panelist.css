@@ -1,27 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Bungee&family=Montserrat:wght@700&family=Work+Sans&display=swap');
 
 .panelist__out__container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    min-height: 80vh;
+    min-height: 100vh;
     width: 100%;
     background-image: url("../../assets/png/panelist_bg.png");
-    /* background: linear-gradient(142deg, rgba(16, 27, 44, 0.50) 7.55%, rgba(55, 55, 64, 0.50) 83.28%); */
     background-size: cover;
     background-repeat: no-repeat;
-    /* opacity: 0.5; */
-    /* background-size: contain;
-    background-repeat: no-repeat; */
     padding-bottom:3rem;
     padding-top: 2rem;
-    /* flex: cover; */
 }
 
 .panelist__container {
     width: 80%;
-    /* margin: auto; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,10 +61,6 @@
       transition: color 300ms;
     }
     
-    /* .arrow svg:hover {
-      color: #68edff;
-    }
-     */
 
 .panelist__caroussel {
       width: 100%;
@@ -83,13 +74,10 @@
       height: 25rem;
       margin: 0 auto;
       display: flex;
+      flex-direction: column;
   }
   
 .panelist__caroussel__btn {
-      /* Add your button-specific styles here */
-      /* font-size: 24px;
-      height: max-content;
-      padding: 10px 20px; */
       width: 3.5rem;
       height: 3.5rem;
       font-size:1.2rem;
@@ -101,10 +89,36 @@
       box-shadow: -3px 1px 12px #ffffff;
       cursor: pointer;
       margin: 0 9rem;
-      /* Adjust the padding as needed */
   }
 
- 
+  /* .image-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    
+  }
+  */
+
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-top: 2rem;
+  }
+  
+  .image-description {
+    font-family: 'Work Sans';
+    color: #fff;
+    font-size: 1.25rem;
+  }
+
   @media (min-device-width: 20px) and (max-device-width: 500px){
    
   }
@@ -123,9 +137,6 @@
     .panelist__heading {
       font-size: 2.8rem;
   }
-    /* .panelist__caroussel {
-      width: 90%;
-    } */
     .panelist__caroussel__btn {
       width: 3rem;
       height: 2.5rem;
@@ -166,8 +177,7 @@
     480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
   
   }
-  
-  
+    
   @media only screen and (device-width: 768px) {
   
   }

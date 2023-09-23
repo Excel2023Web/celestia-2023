@@ -16,35 +16,99 @@ function ImageSlider() {
   const slides = [
     {
       key: uuidv4(),
-      content: <img src={Pic1} width="550rem" height="500rem" alt="1" />
+      content: (
+        <div className="image-container">
+          <img src={Pic1} width="550rem" height="500rem" alt="1" />
+          <div className="image-description">
+            <h3>Robert Shah</h3>
+            <p>Co-Founder and CEO, Cynapse</p>
+          </div>
+      </div>
+      ),
     },
     {
       key: uuidv4(),
-      content: <img src={Pic1} width="500rem" height="500rem" alt="2" />
+      content: (
+        <div className="image-container">
+          <img src={Pic1} width="550rem" height="500rem" alt="1" />
+          <div className="image-description">
+            <h3>Robert Shah</h3>
+            <p>Co-Founder and CEO, Cynapse</p>
+          </div>
+      </div>
+      ),
     },
     {
       key: uuidv4(),
-      content: <img src={Pic1} width="500rem" height="500rem" alt="3" />
+      content: (
+        <div className="image-container">
+          <img src={Pic1} width="550rem" height="500rem" alt="1" />
+          <div className="image-description">
+            <h3>Robert Shah</h3>
+            <p>Co-Founder and CEO, Cynapse</p>
+          </div>
+      </div>
+      ),
     },
     {
       key: uuidv4(),
-      content: <img src={Pic1} width="500rem" height="500rem" alt="4" />
+      content: (
+        <div className="image-container">
+          <img src={Pic1} width="550rem" height="500rem" alt="1" />
+          <div className="image-description">
+            <h3>Robert Shah</h3>
+            <p>Co-Founder and CEO, Cynapse</p>
+          </div>
+      </div>
+      ),
     },
     {
       key: uuidv4(),
-      content: <img src={Pic1} width="500rem" height="500rem" alt="5" />
+      content: (
+        <div className="image-container">
+          <img src={Pic1} width="550rem" height="500rem" alt="1" />
+          <div className="image-description">
+            <h3>Robert Shah</h3>
+            <p>Co-Founder and CEO, Cynapse</p>
+          </div>
+      </div>
+      ),
     },
     {
       key: uuidv4(),
-      content: <img src={Pic1} width="500rem" height="500rem" alt="6" />
+      content: (
+        <div className="image-container">
+          <img src={Pic1} width="550rem" height="500rem" alt="1" />
+          <div className="image-description">
+            <h3>Robert Shah</h3>
+            <p>Co-Founder and CEO, Cynapse</p>
+          </div>
+      </div>
+      ),
     },
     {
       key: uuidv4(),
-      content: <img src={Pic1} width="500rem" height="500rem" alt="7" />
+      content: (
+        <div className="image-container">
+          <img src={Pic1} width="550rem" height="500rem" alt="1" />
+          <div className="image-description">
+            <h3>Robert Shah</h3>
+            <p>Co-Founder and CEO, Cynapse</p>
+          </div>
+      </div>
+      ),
     },
     {
       key: uuidv4(),
-      content: <img src={Pic1} width="500rem" height="500rem" alt="8" />
+      content: (
+        <>
+          <img src={Pic1} width="550rem" height="500rem" alt="1" />
+          <div className="image-description">
+            <h3>Robert Shah</h3>
+            <p>Co-Founder and CEO, Cynapse</p>
+          </div>
+        </>
+      ),
     }
   ];
 
