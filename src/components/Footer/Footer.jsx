@@ -43,7 +43,7 @@ const Footer = () => {
             <FiFacebook />
           </a>
         </div>
-        <p>Made with 🤍 Excel 2023</p>
+        <p>Made with 🧡 Excel 2023</p>
       </div>
       <a href="https://www.excelmec.org/" target="_blank" rel="noreferrer">
         {" "}
