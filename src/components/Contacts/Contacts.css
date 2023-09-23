@@ -1,35 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Bungee&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Bungee&family=Montserrat:wght@700&family=Work+Sans&display=swap');
 .contact__out_container {
     width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 3rem;
-    background:linear-gradient(174deg, #090909 20.08%, #071C44 95.51%);
+    background: url("../../assets/svg/contacts.svg") center/cover no-repeat;
     padding-top: 1rem;
 }
 .contact__card {
-    width: 20rem;
+    width: 30rem;
     height: 10rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
+    /* gap: 1.5rem; */
+    padding-left: 4rem;
+    padding-right: 5rem;
+    padding-bottom: 6rem;
 }
+
 .contacts__container {
     width: 100%;
     display: flex;
-    gap: 5rem;
-    padding: 3rem;
+    gap: 1rem;
+    padding: 2rem;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    /* padding-left: 3rem;
+    padding-right: 3rem; */
 }
 .contact__content {
     width: 100%;
@@ -42,17 +42,28 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 2rem;
+    width: 16rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    margin-left: -6rem;
+    padding-right: 1rem;
+    border: 1px solid rgba(36, 34, 36, 0.5);
+    background: rgba(36, 34, 36, 0.5);
 }
-.contact__context >h1 {
-    font-family: 'Montserrat';
+.contact__context__name >h2 {
+    font-family: 'Work Sans';
     font-style: normal;
     color:#C9C9C9;
 }
 
-.contact__context >p {
+.contact__context__name >p {
     font-size: 1rem;
-    font-family: 'Montserrat';
+    font-family: 'Work Sans';
 
 }
 
@@ -60,6 +71,7 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
+    padding-top: 1.5rem;
 }
 
 .icons__container >a {
@@ -76,7 +88,192 @@
 }
 
 .contact__card >img {
+    width: 15rem;
     border-radius: 50%;
-    background: #ffffff;
-    box-shadow:  7px 5px 8px rgba(115, 198, 247, 0.50), 3px 2px 13px rgba(115, 198, 247, 0.50);
+    z-index: 2;
+    /* background: #ffffff;
+    box-shadow:  7px 5px 8px rgba(115, 198, 247, 0.50), 3px 2px 13px rgba(115, 198, 247, 0.50); */
+}
+
+.contact__context__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 0rem;
+}
+
+.contact__img {
+    width: 30rem;
+    height: 8rem;
+}
+
+@media only screen and (max-width: 1300px) {
+    .contact__img {
+        width: 26rem;
+    }
+
+    .contact__context__name >h2 {
+        font-size: 1.4rem;
+    }
+
+    .contact__card >img {
+        width: 14rem;
+    }    
+
+}
+
+@media only screen and (max-width: 1275px) {
+    .contact__card {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+@media (min-device-width: 20px) and (max-device-width: 500px){
+   
+}
+@media only screen and (max-width: 1200px) {
+    .contact__card {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1115px) {
+    .contact__card >img {
+        width: 13rem;
+    }  
+
+    .contact__card {
+        width: 28rem;
+        height: 9rem;
+    }
+
+    .contact__context__name >h2 {
+        font-size: 1.3rem;
+    }
+    .contact__context__name >p {
+        font-size: 0.95rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+}
+
+@media only screen and (max-width: 1050px) {
+    .contact__card {
+        width: 25rem;
+        height: 9rem;
+    }
+    .contact__context {
+        width: 13rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .contact__img {
+        width: 24rem;
+    }
+}
+
+@media only screen and (max-width: 955px) {
+    .contact__card {
+        width: 22.5rem;
+    }
+    .contact__context__name >h2 {
+        font-size: 1.2rem;
+    }
+    .contact__card >img {
+        width: 11rem;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .contact__card {
+        width: 21.5rem;
+    }
+    .contact__context {
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .contact__card {
+        height: 7rem;
+        padding-left: 1rem;
+        padding-right: 5rem;
+    }
+    .contact__context {
+        width: 14rem;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .contact__img {
+        width: 22rem;
+    }
+
+    .contact__context {
+        padding-left: 4rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 500px) {
+    .contact__img {
+        width: 20rem;
+    }
+    .contact__card >img {
+        width: 10rem;
+    }
+    .contact__context__name >h2 {
+        font-size: 1.1rem;
+    }
+    .contact__context {
+        padding-right: 0rem;
+        padding-left: 5rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    .contact__context {
+        padding-right: 0rem;
+        padding-left: 4.5rem;
+    }
+    .contact__card >img {
+        width: 9rem;
+    }
+    .icons__container >a {
+        font-size: 1.15rem;
+    }
+    .contact__context__name >h2 {
+        font-size: 1rem;
+    }
+    .contact__context__name >p {
+        font-size: 0.85rem;
+    }
+    .contact__card {
+        padding-left: 4rem;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .contact__img {
+        width: 17rem;
+    }
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+
+}
+
+
+@media only screen and (device-width: 768px) {
+
 }

@@ -1,22 +1,35 @@
 import React from 'react';
 import './Speakers.css';
-import Line from "../../assets/png/header_line.png";
-import verticalLine from '../../assets/svg/spkr__line_card.svg';
-import { FaLinkedinIn } from "react-icons/fa6";
+import heading from "../../assets/svg/speakers_heading.svg";
+import verticalLine from '../../assets/svg/spkr_line.svg';
+// import { FaLinkedinIn } from "react-icons/fa6";
+import { speakersData } from '../../assets/data/speaker';
 
 const Speakers = () => {
   return (
     <div className='speakers__main' id='speakers'>
       <div className='panelist__container'>
-        <p className='panelist__heading' data-aos="fade-up">Speakers</p>
-        <img className='header__line' src={Line} alt=" " data-aos="fade-up"></img> 
+        {/* <p className='panelist__heading' data-aos="zoom-in"> <FaLinkedinIn className='linkedin__icon' color='#071C44'/> Speakers</p> */}
+        <img className='speaker__heading' src={heading} alt=" "></img> 
       </div>
       <div className="spkrs__container">
-
-        <div className="spkr__card" data-aos="fade-up">
-            <img src="https://avatars.githubusercontent.com/u/110590339?s=200&v=4" alt=" " />
+      {speakersData.map((contact) => (
+        <div className="spkr__card">
+            <img src={contact.image} alt=" " />
             <div className="spkr__content">
-                <img src={verticalLine} alt="" />
+                <img src={verticalLine} alt=""/>
+                <div className="spkr__context">
+                    <p>{contact.name}</p>
+                    <button className='speaker__contact'><a href={contact.linkedIn} target="_blank"
+                                rel="noreferrer"> CONNECT </a></button>
+                </div>
+            </div>
+        </div>
+      ))}
+        {/* <div className="spkr__card">
+            <img src="https://avatars.githubusercontent.com/u/110590339?s=200&v=4" alt=" " data-aos="zoom-in"/>
+            <div className="spkr__content">
+                <img src={verticalLine} alt=""/>
                 <div className="spkr__context">
                     <p>MATHEW</p>
                     <button> <FaLinkedinIn size={12} color='#071C44'/>  CONNECT </button>
@@ -24,18 +37,7 @@ const Speakers = () => {
             </div>
         </div>
 
-        <div className="spkr__card">
-            <img src="https://avatars.githubusercontent.com/u/110590339?s=200&v=4" alt=" " data-aos="fade-up"/>
-            <div className="spkr__content">
-                <img src={verticalLine} alt="" data-aos="fade-up"/>
-                <div className="spkr__context" data-aos="fade-up">
-                    <p>MATHEW</p>
-                    <button> <FaLinkedinIn size={12} color='#071C44'/>  CONNECT </button>
-                </div>
-            </div>
-        </div>
-
-        <div className="spkr__card" data-aos="fade-up">
+        <div className="spkr__card" data-aos="zoom-in">
             <img src="https://avatars.githubusercontent.com/u/110590339?s=200&v=4" alt=" "/>
             <div className="spkr__content">
                 <img src={verticalLine} alt="" />
@@ -46,7 +48,7 @@ const Speakers = () => {
             </div>
         </div>
 
-        <div className="spkr__card" data-aos="fade-up">
+        <div className="spkr__card" data-aos="zoom-in">
             <img src="https://avatars.githubusercontent.com/u/110590339?s=200&v=4" alt=" "/>
             <div className="spkr__content">
                 <img src={verticalLine} alt=""/>
@@ -57,7 +59,7 @@ const Speakers = () => {
             </div>
         </div>
 
-        <div className="spkr__card" data-aos="fade-up">
+        <div className="spkr__card" data-aos="zoom-in">
             <img src="https://avatars.githubusercontent.com/u/110590339?s=200&v=4" alt=" "/>
             <div className="spkr__content">
                 <img src={verticalLine} alt="" />
@@ -68,7 +70,7 @@ const Speakers = () => {
             </div>
         </div>
 
-        <div className="spkr__card" data-aos="fade-up">
+        <div className="spkr__card" data-aos="zoom-in">
             <img src="https://avatars.githubusercontent.com/u/110590339?s=200&v=4" alt=" " />
             <div className="spkr__content">
                 <img src={verticalLine} alt="" />
@@ -77,7 +79,7 @@ const Speakers = () => {
                     <button> <FaLinkedinIn size={12} color='#071C44'/>  CONNECT </button>
                 </div>
             </div>
-        </div>
+        </div> */}
 
       </div>
     </div>

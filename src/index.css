@@ -14,6 +14,19 @@ body {
   /* background: radial-gradient(200.65% 776.86% at -9.28% 116.91%,#140915 35.44%,var(--themeColour) 100%); */
   
 }
+
+body::-webkit-scrollbar {
+  width: 0.7em;
+}
+
+body::-webkit-scrollbar-track {
+  background: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #f69a06;
+  border-radius: 10px;
+}
 /* #ad5389 */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
