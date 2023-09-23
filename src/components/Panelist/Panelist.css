@@ -160,9 +160,7 @@
   }
   
   @media screen and (max-width: 992px) {
-    .panelist__caroussel__btn{
-      /* display: none; */
-    }
+   
   }
   
   @media screen and (max-width: 800px) {
