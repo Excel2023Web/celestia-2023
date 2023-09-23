@@ -29,7 +29,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faLinkedin} className="social-icon linkedin-icon" />
           </a>
         </div>
-        <p>Made with 🧡Excel 2022</p>
+        <p>Made with 🧡 Excel 2022</p>
       </div>
       <div className="footer-right">
         <a href="https://www.excelmec.org" target="_blank" rel="noopener noreferrer">
