@@ -20,7 +20,7 @@ const Speakers = () => {
                 <img src={verticalLine} alt=""/>
                 <div className="spkr__context">
                     <p>{contact.name}</p>
-                    <button><a href={contact.linkedIn} target="_blank"
+                    <button className='speaker__contact'><a href={contact.linkedIn} target="_blank"
                                 rel="noreferrer"> <FaLinkedinIn size={12} color='#071C44'/> CONNECT </a></button>
                 </div>
             </div>
