@@ -63,10 +63,16 @@
   font-family: 'Montserrat';
     font-style: normal;
     color: #939393;
+    font-size: 1rem;
 }
 .speaker__contact {
     border-radius: 8px;
-    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     font-family: 'Montserrat';
     font-style: normal;
     color: #939393;
@@ -108,9 +114,9 @@
     width: 15rem;
   }
 
-  .spkr__context >p{
+  /* .spkr__context >p{
     font-size: 1.1rem;
-  }
+  } */
 
   .linkedin__icon {
     font-size: 0.7rem;
@@ -141,13 +147,13 @@
     width: 15rem;
   }
 
-  .spkr__context >p{
+  /* .spkr__context >p{
     font-size: 0.9rem;
-  }
+  } */
 
-  .speaker__contact >a{
+  /* .speaker__contact >a{
     font-size: 0.7rem;
-  }
+  } */
 
 }
 
