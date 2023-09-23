@@ -4,6 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { config } from "react-spring";
 import Pic1 from "../../assets/png/panelist_img.jpg";
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
+import { useSwipeable } from "react-swipeable";
 
 function ImageSlider() {
   const [goToSlide, setGoToSlide] = useState(0);
@@ -49,11 +50,15 @@ function ImageSlider() {
           </div>
       </div>
       ),
-    },
-   
-   
+    }, 
    
   ];
+
+  const handlers = useSwipeable({
+    onSwipedLeft: () => setGoToSlide((prevGoToSlide) => prevGoToSlide + 1),
+    onSwipedRight: () => setGoToSlide((prevGoToSlide) => prevGoToSlide - 1),
+  });
+
 
   useEffect(() => {
     function startAutoPlay() {
@@ -74,7 +79,7 @@ function ImageSlider() {
   }, [interval, slides.length]);
 
   return (
-    <div className="panelist__caroussel" data-aos="fade-up">
+    <div className="panelist__caroussel" data-aos="fade-up" {...handlers}>
         <button className="panelist__caroussel__btn" onClick={() => {
               setGoToSlide((prevGoToSlide) => prevGoToSlide - 1);
             }} data-aos="fade-up"><FaAngleLeft /></button>

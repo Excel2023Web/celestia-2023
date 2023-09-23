@@ -63,7 +63,7 @@
 
 .vertical-timeline-element-content{
     background: rgba( 255, 255, 255, 0.1 );
-    box-shadow: 0 8px 32px 0 rgba(212, 76, 59, 0.25);
+    box-shadow:  0px 4px 4px 5px rgba(212, 76, 59, 0.25);
     backdrop-filter: blur( 11px );
     -webkit-backdrop-filter: blur( 11px );
     border-radius: 10px;
@@ -91,7 +91,7 @@
     box-shadow: none;
     top: 23px;
     background: #D9D9D9;
-    box-shadow: 0px 2px 8px 7px rgba(212, 76, 59, 0.25);
+    box-shadow: 0px 1px 4px 5px rgba(212, 76, 59, 0.25);
 } 
 
 .header__line {
@@ -99,6 +99,9 @@
 }
 
 @media only screen and (max-width: 1300px) {
+    .timeline__heading {
+        width: 22rem;
+    }
 
 }
 @media (min-device-width: 20px) and (max-device-width: 500px){
@@ -118,7 +121,7 @@
         border-right: 7px solid #fff;
     }
     .vertical-timeline-element-content {
-        box-shadow: 0px -1px 12px 11px rgba(68, 123, 150, 0.48);
+        box-shadow: 0px 4px 4px 5px  rgba(212, 76, 59, 0.25);
     }
     .vertical-timeline {
         width: 75%;
@@ -130,12 +133,17 @@
 }
 
 @media screen and (max-width: 992px) {
-
+    .timeline__heading {
+        width: 20rem;
+    }
 }
 
 @media screen and (max-width: 800px) {
     .vertical-timeline {
         width: 80%;
+    }
+    .timeline__heading {
+        width: 18rem;
     }
 }
 @media screen and (max-width: 700px) {
@@ -145,7 +153,9 @@
 }
 
 @media screen and (max-width: 600px) {
-
+    .timeline__heading {
+        width: 16rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
