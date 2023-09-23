@@ -45,7 +45,7 @@ function Navbar() {
           </NavLink>
         </div>
         <div className="nav_contents">
-          <NavLink className="nav__link" to=" ">Home</NavLink>
+          <NavLink className="nav__link" to="home">Home</NavLink>
           <NavLink className="nav__link" to="about" smooth={true} duration={500}>About</NavLink>
           <NavLink className="nav__link" to="speakers" smooth={true} duration={500}>Speakers</NavLink>
           <NavLink className="nav__link" to="panelist" smooth={true} duration={500}>Panelists</NavLink>
@@ -80,7 +80,7 @@ function Navbar() {
             <NavLink
               data-aos="fade-right"
               data-aos-duration="200"
-              to="/#home"
+              to="home"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
@@ -89,7 +89,7 @@ function Navbar() {
             <NavLink
               data-aos="fade-right"
               data-aos-duration="400"
-              to="/#about"
+              to="about"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
