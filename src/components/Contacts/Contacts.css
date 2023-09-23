@@ -54,7 +54,7 @@
     margin-left: -6rem;
     padding-right: 1rem;
     border: 1px solid rgba(36, 34, 36, 0.5);
-    background: rgba(36, 34, 36, 0.5);
+    background: rgba(36, 34, 36, 0.7);
 }
 .contact__context__name >h2 {
     font-family: 'Work Sans';
@@ -91,6 +91,7 @@
 .contact__card >img {
     width: 14rem;
     border-radius: 50%;
+    pointer-events: none;
     z-index: 2;
     /* background: #ffffff;
     box-shadow:  7px 5px 8px rgba(115, 198, 247, 0.50), 3px 2px 13px rgba(115, 198, 247, 0.50); */
