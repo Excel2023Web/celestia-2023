@@ -25,16 +25,16 @@ export const speakersData = [
     image: img,
     linkedIn: "https://www.linkedin.com/in/sania-maria-sabu-1b059a1b2/",
     },
-    {
-    id: 5,
-    name: "Sebin Davis",
-    image: img,
-    linkedIn: "https://www.linkedin.com/in/sebin-davis-344782195",
-    },
-    {
-    id: 6,
-    name: "Sania Maria Sabu",
-    image: img,
-    linkedIn: "https://www.linkedin.com/in/sania-maria-sabu-1b059a1b2/",
-    },
+    // {
+    // id: 5,
+    // name: "Sebin Davis",
+    // image: img,
+    // linkedIn: "https://www.linkedin.com/in/sebin-davis-344782195",
+    // },
+    // {
+    // id: 6,
+    // name: "Sania Maria Sabu",
+    // image: img,
+    // linkedIn: "https://www.linkedin.com/in/sania-maria-sabu-1b059a1b2/",
+    // },
 ]

@@ -101,13 +101,13 @@ function ImageSlider() {
     {
       key: uuidv4(),
       content: (
-        <>
+        <div className="image-container">
           <img src={Pic1} width="550rem" height="500rem" alt="1" />
           <div className="image-description">
             <h3>Robert Shah</h3>
             <p>Co-Founder and CEO, Cynapse</p>
           </div>
-        </>
+      </div>
       ),
     }
   ];

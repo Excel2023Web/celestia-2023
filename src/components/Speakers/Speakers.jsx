@@ -1,7 +1,7 @@
 import React from 'react';
 import './Speakers.css';
 import heading from "../../assets/svg/speakers_heading.svg";
-import verticalLine from '../../assets/svg/spkr__line_card.svg';
+import verticalLine from '../../assets/svg/spkr_line.svg';
 import { FaLinkedinIn } from "react-icons/fa6";
 import { speakersData } from '../../assets/data/speaker';
 
@@ -14,14 +14,14 @@ const Speakers = () => {
       </div>
       <div className="spkrs__container">
       {speakersData.map((contact) => (
-        <div className="spkr__card" data-aos="zoom-in">
+        <div className="spkr__card">
             <img src={contact.image} alt=" " />
             <div className="spkr__content">
                 <img src={verticalLine} alt=""/>
                 <div className="spkr__context">
                     <p>{contact.name}</p>
                     <button className='speaker__contact'><a href={contact.linkedIn} target="_blank"
-                                rel="noreferrer"> <FaLinkedinIn size={12} color='#071C44'/> CONNECT </a></button>
+                                rel="noreferrer"> <FaLinkedinIn className='linkedin__icon' color='#071C44'/> CONNECT </a></button>
                 </div>
             </div>
         </div>
