@@ -198,9 +198,25 @@
     }
 }
 
+@media screen and (max-width: 850px) {
+    .contact__card {
+        height: 7rem;
+        padding-left: 1rem;
+        padding-right: 5rem;
+    }
+    .contact__context {
+        width: 14rem;
+    }
+}
+
+
 @media screen and (max-width: 800px) {
     .contact__img {
         width: 22rem;
+    }
+
+    .contact__context {
+        padding-left: 4rem;
     }
 }
 
@@ -211,6 +227,37 @@
 @media screen and (max-width: 500px) {
     .contact__img {
         width: 20rem;
+    }
+    .contact__card >img {
+        width: 10rem;
+    }
+    .contact__context__name >h2 {
+        font-size: 1.1rem;
+    }
+    .contact__context {
+        padding-right: 0rem;
+        padding-left: 5rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    .contact__context {
+        padding-right: 0rem;
+        padding-left: 4.5rem;
+    }
+    .contact__card >img {
+        width: 9rem;
+    }
+    .icons__container >a {
+        font-size: 1.15rem;
+    }
+    .contact__context__name >h2 {
+        font-size: 1rem;
+    }
+    .contact__context__name >p {
+        font-size: 0.85rem;
+    }
+    .contact__card {
+        padding-left: 4rem;
     }
 }
 
