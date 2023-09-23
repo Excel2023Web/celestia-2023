@@ -1,7 +1,7 @@
-/* Import the Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Bungee&family=Montserrat:wght@700&display=swap');
 
-/* Existing styles */
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -29,22 +29,22 @@
 }
 
 .social-link:active {
-    color: orange; /* Change the color to orange */
+    color: orange; 
   }
   
 
-/* Style for the center content (social links and "Made with Excel 2022") */
+
 .footer-center {
   text-align: center;
   margin-top: 20px;
 }
 
-/* Style for the right image */
+
 .footer-right img {
-  max-width: 150px; /* Adjust the image size as needed */
+  max-width: 150px; 
 }
 
-/* Media query for mobile responsiveness */
+
 @media (max-width: 768px) {
   .footer {
     flex-direction: column;
@@ -67,30 +67,30 @@
   }
 }
 
-/* Style for specific social media icons (e.g., Facebook) */
+
 .facebook-icon {
-  color: white; /* Facebook blue color */
-  font-size: 24px; /* Adjust the size as needed */
-  margin-right: 10px; /* Add spacing between icons */
+  color: white;
+  font-size: 24px; 
+  margin-right: 10px; 
 }
 
-/* Style for specific social media icons (e.g., Twitter) */
+
 .twitter-icon {
-  color: white; /* Twitter blue color */
+  color: white; 
   font-size: 24px;
   margin-right: 10px;
 }
 
-/* Style for specific social media icons (e.g., Instagram) */
+
 .instagram-icon {
-  color: white; /* Instagram purple color */
+  color: white; 
   font-size: 24px;
   margin-right: 10px;
 }
 
-/* Style for specific social media icons (e.g., LinkedIn) */
+
 .linkedin-icon {
-  color: white; /* LinkedIn blue color */
+  color: white; 
   font-size: 24px;
   margin-right: 10px;
 }
