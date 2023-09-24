@@ -49,7 +49,7 @@ function Navbar() {
           <NavLink className="nav__link" to="about" smooth={true} duration={500}>About</NavLink>
           <NavLink className="nav__link" to="speakers" smooth={true} duration={500}>Speakers</NavLink>
           <NavLink className="nav__link" to="panelist" smooth={true} duration={500}>Panelists</NavLink>
-          <NavLink className="nav__link" to="timeline" smooth={true} duration={500}>Schedule</NavLink>
+          <NavLink className="nav__link" to="timeline" smooth={true} duration={500}>Timeline</NavLink>
           <NavLink className="nav__link" to="contact" smooth={true} duration={500}>Contact Us</NavLink>
         </div>
         {/* <a href='https://rzp.io/l/finnext' target='_blank' rel="noreferrer">
@@ -120,7 +120,7 @@ function Navbar() {
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              Schedule
+              Timeline
             </NavLink>
             <NavLink
               data-aos="fade-right"
