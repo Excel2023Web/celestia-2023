@@ -10,11 +10,11 @@ const Speakers = () => {
     <div className='speakers__main' id='speakers'>
       <div className='panelist__container'>
         {/* <p className='panelist__heading' data-aos="zoom-in"> <FaLinkedinIn className='linkedin__icon' color='#071C44'/> Speakers</p> */}
-        <img className='speaker__heading' src={heading} alt=" "></img> 
+        <img className='speaker__heading' src={heading} alt=" " data-aos="zoom-in"></img> 
       </div>
       <div className="spkrs__container">
       {speakersData.map((contact) => (
-        <div className="spkr__card" key={contact.id}>
+        <div className="spkr__card" key={contact.id} data-aos="zoom-in">
             <img src={contact.image} alt=" " />
             <div className="spkr__content">
                 <img src={verticalLine} alt=""/>
