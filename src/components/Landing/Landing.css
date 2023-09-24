@@ -173,6 +173,19 @@
 }
 
 @media screen and (max-width: 992px) {
+    .landing_text {
+    font-size: 6rem;
+  }
+  .landing_text2 {
+    font-size: 2rem;
+  }
+  .landing_subheading {
+    font-family: Work Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+
 }
 
 @media screen and (max-width: 800px) {
