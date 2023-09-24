@@ -113,7 +113,7 @@
 
 @media only screen and (max-width: 1170px) {
     .vertical-timeline--two-columns .vertical-timeline-element-icon {
-        margin-left: 11px;
+        margin-left: 10px;
         top: 17px;
     }
 
@@ -122,6 +122,9 @@
     }
     .vertical-timeline {
         width: 75%;
+    }
+    .vertical-timeline::before{
+        width: 0.3rem;
     }
 }
 
@@ -153,6 +156,7 @@
     .timeline__heading {
         width: 16rem;
     }
+
 }
 
 @media screen and (max-width: 400px) {

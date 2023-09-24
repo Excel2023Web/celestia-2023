@@ -5,9 +5,9 @@ import about_heading from "../../assets/svg/ABOUT.svg";
 const About = () => {
   return (
     <>
-    <div className='about__out__container' id='about' data-aos="zoom-in">
+    <div className='about__out__container' id='about'>
         <div className='about-header'>
-          <img className='heading' src={about_heading} alt=""/>
+          <img className='heading' src={about_heading} data-aos="zoom-in" alt=""/>
           {/* <h2>About</h2> */}
         </div>
         <div className='about-body'>

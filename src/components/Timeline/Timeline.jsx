@@ -29,10 +29,10 @@ const Timeline = () => {
           className="timeline__heading"
           src={timeline}
           alt=" "
-          data-aos="fade-up"
+          data-aos="zoom-in"
         ></img>
       </div>
-      <div className="timeline__section" data-aos="fade-up">
+      <div className="timeline__section" data-aos="zoom-in">
         <VerticalTimeline
           theme={customTheme}
           lineColor="#21b8cb"

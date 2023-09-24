@@ -8,7 +8,7 @@
     justify-content: flex-start;
     /* height: 140vh; */
     width: 100%;
-    background-image: url("../../assets/jpg/starsBg.jpg");
+    background-image: url("../../assets/png/panelist.jpg");
     /* background-image: url('../../assets/svg/finalPanelistBg.svg'); */
     background-size: cover;
     background-repeat: no-repeat;
@@ -84,7 +84,7 @@
 }
 .slider__img{
   pointer-events: none;
-  border-radius: 2rem;
+  border-radius: 20px !important;
   width: 30rem;
   height:20rem;
 }
@@ -154,6 +154,7 @@
       font-size: 1rem;
       border-radius: 11px;
   }
+
   .panelist__caroussel__img {
     width: 50%;
     height: 20rem;
@@ -162,7 +163,7 @@
 .slider__img {
   width:30rem;
   height: 20rem;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
   }
   
@@ -249,11 +250,7 @@
     }
   }
   @media screen and (max-width:435px) {
-    /* .slider__img{
-      width: 15rem;
-      height:10rem;
-      padding-top: 11rem;
-    } */
+ 
   }
     
   @media only screen and (min-device-width: 320px) and (max-device-width: 
