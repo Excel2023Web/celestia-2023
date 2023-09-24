@@ -43,9 +43,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #09203f;
+  /* color: #09203f; */
+  color: #ffff !important;
   /* border: 2px solid #ffff; */
-  background-color: #ffff;
+  /* background-color: #ffff; */
 }
 .footer_social_logos > a:hover {
   background-color: #f69a06;

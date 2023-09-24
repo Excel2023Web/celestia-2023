@@ -64,6 +64,8 @@
 
 .contact__context__name >p {
     font-size: 1rem;
+    line-height: 22px;
+    text-align: center;
     font-family: 'Work Sans';
 
 }
