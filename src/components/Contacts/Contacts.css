@@ -7,7 +7,7 @@
     align-items: center;
     background: url("../../assets/svg/contacts.svg") center/cover no-repeat;
     padding-top: 1rem;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 .contact__card {
     width: 30rem;
