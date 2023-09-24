@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Work+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap");
+@font-face {
+  font-family: "Coalition";
+
+  src: url(../../coalition/Coalition_v2..ttf) format("truetype");
+}
+.landing_container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+  background: linear-gradient(174deg, #090909 20.08%, #071c44 95.51%);
+  padding-top: 1rem;
+  /* opacity: 0.7; */
+  /* background-image: url("../../assets/svg/image\ 131.svg"); */
+  background-image: url("../../assets/png/landing_bgnj2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: fixed;
+  /* opacity: 2; */
+}
+.mid_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 4rem; */
+}
+.landing_button {
+  /* border-radius: 1.2rem; */
+  /* border: 1px solid #7f7f7f; */
+  /* background: rgba(255, 255, 255, 0.1); */
+  /* backdrop-filter: blur(40px); */
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  font-family: 'Work Sans';
+  font-size: 1.8rem;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 16px 24px;
+  /* box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.5) inset; */
+  /* background: #e0e0e0; */
+  /* box-shadow: 6px 6px 15px #d3d3d3, -6px -6px 15px #ededed; */
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.57));
+}
+
+.landing_text {
+  text-transform: uppercase;
+  /* color: #4b4b92; */
+  color: #fff;
+  font-family: "Coalition", sans-serif;
+  font-size: 8.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  padding-top: 8rem;
+  z-index: 2;
+  /* background: linear-gradient(103deg, #bdbdbd 40.55%, #a4a3a4 64.89%); */
+  background: #ffffff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.landing_text2 {
+  color: #ffffff;
+  font-family: 'Work Sans';
+  font-size: 1.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.01938rem;
+}
+
+.landing_image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 70vh;
+  z-index: 1;
+}
+.landing_subheading {
+  font-family: 'Work Sans';
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  gap: 32px;
+}
+#section07 a {
+  color: #fff;
+  padding-top: 80px;
+}
+.demo a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font: bold 800 20px/1 "Josefin Sans", sans-serif;
+  letter-spacing: 0.5em;
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+.demo a:hover {
+  opacity: 0.5;
+}
+
+#section07 a span {
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: -12px;
+  border-left: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb07 2s infinite;
+  animation: sdb07 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+#section07 a span:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+#section07 a span:nth-of-type(2) {
+  top: 16px;
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+}
+#section07 a span:nth-of-type(3) {
+  top: 32px;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+@-webkit-keyframes sdb07 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb07 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 600px) {
+  .landing_image {
+    height: 60vh;
+    transform: translate(-30%, 0%);
+  }
+  .landing_text {
+    font-size: 4.2rem;
+  }
+  .landing_text2 {
+    font-size: 2rem;
+  }
+  .landing_subheading {
+    font-family: 'Work Sans';
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .mid_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .landing_button {
+    /* border-radius: 1.2rem;
+    border: 1px solid #7f7f7f;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(40px); */
+    color: #fff;
+    font-family: 'Work Sans';
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px 22px;
+    /* box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.5) inset;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.57)); */
+  }
+  .landing_image {
+    height: 60vh;
+    transform: translate(-30%, 0%);
+  }
+
+  .landing_text {
+    font-size: 3rem;
+  }
+  .landing_subheading {
+    font-family: 'Work Sans';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    gap: 10px;
+  }
+  .landing_image {
+    height: 60vh;
+    transform: translate(-30%, 0%);
+  }
+
+  .landing_text {
+    font-size: 3rem;
+  }
+  .landing_subheading {
+    font-family: 'Work Sans';
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+}

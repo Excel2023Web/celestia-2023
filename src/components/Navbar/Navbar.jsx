@@ -6,6 +6,7 @@ import { Link as NavLink } from "react-scroll";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
 import excel_logo from "../../assets/png/excel2023.png";
 import "./Navbar.css";
+import Stars from "../Stars/Stars";
 
 function Navbar() {
   const [drawer, setDrawer] = useState(false);
@@ -44,8 +45,8 @@ function Navbar() {
           </NavLink>
         </div>
         <div className="nav_contents">
-          <NavLink className="nav__link" to=" ">Home</NavLink>
-          <NavLink className="nav__link" to=" ">About</NavLink>
+          <NavLink className="nav__link" to="home" smooth={true} duration={500}>Home</NavLink>
+          <NavLink className="nav__link" to="about" smooth={true} duration={500}>About</NavLink>
           <NavLink className="nav__link" to="speakers" smooth={true} duration={500}>Speakers</NavLink>
           <NavLink className="nav__link" to="panelist" smooth={true} duration={500}>Panelists</NavLink>
           <NavLink className="nav__link" to="timeline" smooth={true} duration={500}>Schedule</NavLink>
@@ -59,7 +60,7 @@ function Navbar() {
           <IoMenu className="nam_menu_icon" />
         </div>
       </div>
-
+     
       <Drawer
         disableScrollLock={true}
         anchor="left"
@@ -70,6 +71,7 @@ function Navbar() {
           width: "90%",
         }}
       >
+        
         <div className="navbar__mob">
           <div className="navbar_mob_close" onClick={handleDrawerClose}>
             <IoClose />
@@ -78,7 +80,7 @@ function Navbar() {
             <NavLink
               data-aos="fade-right"
               data-aos-duration="200"
-              to="/#home"
+              to="home"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
@@ -87,7 +89,7 @@ function Navbar() {
             <NavLink
               data-aos="fade-right"
               data-aos-duration="400"
-              to="/#about"
+              to="about"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
@@ -131,7 +133,9 @@ function Navbar() {
             </NavLink>
           </div>
         </div>
+        <Stars/>
       </Drawer>
+      
     </div>
   );
 }

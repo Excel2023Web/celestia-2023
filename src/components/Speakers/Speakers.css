@@ -5,10 +5,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding-bottom: 3rem; */
-  background:linear-gradient(174deg, #090909 20.08%, #071C44 95.51%);
-  padding-top: 3rem;
+  background-image: url("../../assets/png/about_bg2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 1rem;
   padding-bottom: 7rem; 
+  opacity: 0.8;
   /* justify-content: center; */
 }
 .spkrs__container {
@@ -21,7 +23,8 @@
   flex-direction: row; 
   padding-bottom: 2rem;
   padding-left: 3rem;
-  padding-right: 3rem
+  padding-right: 3rem;
+  line-height: 0rem;
 }
 .spkr__card {
   /* width: 10rem; */
@@ -35,8 +38,8 @@
 .spkr__card > img {
     width: 15rem;
     border-radius: 50%;
-    background: linear-gradient(145deg, #FAFAFA, #FAFAFA);
-    border: 3px solid #FFF;
+    /* background: linear-gradient(145deg, #FAFAFA, #FAFAFA);
+    border: 3px solid #FFF; */
 }
 .spkr__content {
   width: 100%;
@@ -52,15 +55,27 @@
 .spkr__context {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
-  padding-left: 2.1rem;
+  /* padding-left: 2.1rem; */
 }
-.spkr__context >button{
+.speaker__contact >a {
+  font-family: 'Montserrat';
+    font-style: normal;
+    color: #939393;
+    font-size: 1rem;
+}
+.speaker__contact {
     border-radius: 8px;
-    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     font-family: 'Montserrat';
     font-style: normal;
+    opacity: 1;
     color: #939393;
     width: 7rem;
     height: 2.2rem;
@@ -71,10 +86,117 @@
     gap: 0.5rem;
 }
 
+.linkedin__icon {
+  font-size: 0.8rem;
+}
+
+.speaker__heading {
+  width: 25rem;
+  height: 8rem;
+}
+
 .spkr__context >p {
   font-family: 'Montserrat';
   font-style: normal;
   color: #ffffff;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
+@media only screen and (max-width: 1300px) {
+  .spkr__card > img {
+    width: 12rem;
+  }
+
+  .speaker__heading {
+    width: 22rem;
+  }  
+
+  .spkr__card {
+    width: 15rem;
+  }
+
+  .spkr__context >p{
+    font-size: 1.1rem;
+  }
+
+  .linkedin__icon {
+    font-size: 0.7rem;
+  }
+
+}
+@media (min-device-width: 20px) and (max-device-width: 500px){
+   
+}
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+}
+
+@media screen and (max-width: 992px) {
+  .spkr__card > img {
+    width: 10rem;
+  }
+
+  .speaker__heading {
+    width: 20rem;
+  }  
+
+  .spkr__card {
+    width: 15rem;
+  }
+
+  .spkr__context >p{
+    font-size: 0.9rem;
+  }
+
+  /* .speaker__contact >a{
+    font-size: 0.7rem;
+  } */
+
+}
+
+@media screen and (max-width: 800px) {
+  .spkrs__container {
+    gap: 3.4rem;
+  }
+
+  .spkr__card {
+    width: 11rem;
+  }
+
+  .speaker__heading {
+    width: 18rem;
+  }  
+
+}
+
+@media screen and (max-width: 700px) {
+  .spkrs__container {
+    line-height: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .speaker__heading {
+    width: 16rem;
+  }  
+
+}
+
+@media screen and (max-width: 400px) {
+
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+
+}
+
+
+@media only screen and (device-width: 768px) {
+
+}
