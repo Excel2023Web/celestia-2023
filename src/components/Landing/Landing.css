@@ -23,13 +23,16 @@
   background-repeat: no-repeat;
   /* background-position: cover; */
   background-size: cover;
+  background-position: center;
+  transition: all 0.2s;
   /* opacity: 2; */
 }
 .mid_container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  gap: 16px;
   /* gap: 4rem; */
 }
 .landing_button {
@@ -58,6 +61,7 @@
 }
 
 .landing_text {
+    transition: all 0.2s ease-in-out;
   text-transform: uppercase;
   /* color: #4b4b92; */
   color: #fff;
@@ -97,6 +101,7 @@
   font-size: 1.75rem;
   font-style: normal;
   font-weight: 400;
+    transition: all 0.2s ease-in-out;
 }
 
 .row-container {
@@ -107,6 +112,7 @@
   width: 100%;
   margin-top: 2rem;
   gap: 32px;
+  transition: all 0.2s ease-in-out;
 }
 #section07 a {
   color: #fff;
@@ -135,8 +141,8 @@
   position: absolute;
   top: 0;
   left: 50%;
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   margin-left: -12px;
   border-left: 3px solid #fff;
   border-bottom: 3px solid #fff;
@@ -185,18 +191,63 @@
 }
 
 @media screen and (max-width: 992px) {
+    .landing_text {
+    font-size: 6rem;
+  }
+  .landing_text2 {
+    font-size: 2rem;
+  }
+  .landing_subheading {
+    font-family: Work Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+
 }
+
 
 @media screen and (max-width: 800px) {
+  .demo a{
+    bottom: 40px;
+  }
+      .landing_text {
+    font-size: 5.65rem;
+  }
+  .landing_text2 {
+    font-size: 2rem;
+  }
+  .landing_subheading {
+    font-family: Work Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 650px) {
+      .landing_text {
+    font-size: 5.2rem;
+  }
+  .landing_text2 {
+    font-size: 2rem;
+  }
+  .landing_subheading {
+    font-family: Work Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+  }
 }
 
+
 @media screen and (max-width: 600px) {
+ 
   .landing_image {
     height: 60vh;
     transform: translate(-30%, 0%);
   }
   .landing_text {
-    font-size: 4.2rem;
+    font-size: 4.5rem;
   }
   .landing_text2 {
     font-size: 2rem;
