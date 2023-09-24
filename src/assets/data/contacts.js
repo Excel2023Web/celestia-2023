@@ -30,8 +30,10 @@ export const contactsData = [
     },
     {
       id: 4,
-      name: "Sania Maria Sabu",
-      designation: "Social Initiatives Manager",
+      name: "Faiza S Rahman",
+      designation: <>
+      Conference and Workshops <br /> Manager
+        </>,
       image: img,
       phone: "7306928074",
       email: "saniamariasabu.mec@gmail.com",
