@@ -44,11 +44,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
     backdrop-filter: blur( 0.5px );
     -webkit-backdrop-filter: blur( 0.5px );
     border-radius: 2rem;
-    width: 16rem;
+    width: 100%;
     padding-bottom: 1rem;
     padding-left: 5rem;
     margin-left: -6rem;
@@ -62,11 +62,10 @@
     color:#C9C9C9;
 }
 
-.contact__context__name >p {
+.contact__context__name > p {
     font-size: 1rem;
     font-family: 'Work Sans';
-
-}
+  }
 
 .icons__container {
     display: flex;
@@ -218,7 +217,7 @@
     }
 
     .contact__context {
-        padding-left: 4rem;
+        padding-left: 4.5rem;
     }
 }
 
