@@ -13,7 +13,6 @@ import {
 
 const MainPage = () => {
   return (
-    <>
       <div className="main__page">
         <Navbar />
         <Landing />
@@ -24,7 +23,6 @@ const MainPage = () => {
         <Contacts />
         <Footer />
       </div>
-    </>
   );
 };
 
