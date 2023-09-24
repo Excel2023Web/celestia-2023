@@ -1,8 +1,8 @@
 import React from "react";
 import "./Landing.css";
 import { useSpring, animated } from "react-spring";
-import { duration } from "@mui/material";
-
+// import { duration } from "@mui/material";
+import { Link } from "react-scroll";
 const Landing = () => {
   // Define animations using react-spring
   const landingTextAnimation = useSpring({
@@ -73,12 +73,11 @@ const Landing = () => {
           Register Now
         </animated.button>
         <section id="section07" class="demo">
-          <a href="#down">
-            
+          <Link to="#home">
             <span></span>
             <span></span>
             <span></span>
-          </a>
+          </Link>
         </section>
       </div>
     </div>
