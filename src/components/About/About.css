@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Bungee&family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Bungee&family=Montserrat:wght@700&family=Work+Sans&display=swap');
 .about__out__container {
-    background: url("../../assets/png/about_bg1.png") no-repeat center center / cover;
+    background: url("../../assets/png/about_bg.jpg") no-repeat center center / cover;
     width: 100%;
     min-height: 100vh;
     display: flex;
