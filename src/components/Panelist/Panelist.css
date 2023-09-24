@@ -9,6 +9,7 @@
     /* height: 140vh; */
     width: 100%;
     background-image: url("../../assets/jpg/starsBg.jpg");
+    /* background-image: url('../../assets/svg/finalPanelistBg.svg'); */
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom:10rem;

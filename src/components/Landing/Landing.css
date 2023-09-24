@@ -22,7 +22,7 @@
   background-image: url("../../assets/png/landing_bgnj2.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: fixed;
   /* opacity: 2; */
 }
 .mid_container {
