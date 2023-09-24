@@ -62,21 +62,26 @@
 .speaker__contact >a {
   font-family: 'Montserrat';
     font-style: normal;
-    color: #939393;
+    color: #ffffff;
     font-size: 1rem;
 }
 .speaker__contact {
-    border-radius: 8px;
+    /* border-radius: 8px;
     background: rgba(255, 255, 255, 0.10);
     box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.10);
     backdrop-filter: blur( 1px );
-    -webkit-backdrop-filter: blur( 1px );
-    /* border-radius: 10px; */
+    -webkit-backdrop-filter: blur( 1px ); */
+    background: linear-gradient(355deg, rgba(15, 15, 24, 0.36) 6.35%, rgba(188, 94, 59, 0.36) 86.17%);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     font-family: 'Montserrat';
     font-style: normal;
     opacity: 1;
     color: #939393;
+    padding: 0.3rem;
     width: 7rem;
     height: 2.2rem;
     cursor: pointer;
@@ -84,6 +89,10 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+}
+
+.speaker__contact:hover {
+  color: linear-gradient(165deg, #081831 14.17%, #3A2527 40.19%, #0F1116 75.16%, #0E0F13 92.24%);
 }
 
 .linkedin__icon {
