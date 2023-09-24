@@ -17,9 +17,11 @@
   padding-bottom: 3rem;
   background: linear-gradient(174deg, #090909 20.08%, #071c44 95.51%);
   padding-top: 1rem;
-  background-image: url("../../assets/svg/image\ 131.svg");
+  /* opacity: 0.7; */
+  /* background-image: url("../../assets/svg/image\ 131.svg"); */
+  background-image: url("../../assets/png/landing_bgnj2.png");
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: cover; */
   background-size: cover;
   /* opacity: 2; */
 }
@@ -28,44 +30,54 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 4rem;
+  /* gap: 4rem; */
 }
 .landing_button {
-  border-radius: 1.2rem;
-  border: 1px solid #7f7f7f;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(40px);
+  /* border-radius: 1.2rem; */
+  /* border: 1px solid #7f7f7f; */
+  /* background: rgba(255, 255, 255, 0.1); */
+  /* backdrop-filter: blur(40px); */
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   color: #fff;
-  font-family: Work Sans;
-  font-size: 1.9375rem;
+  font-family: 'Work Sans';
+  font-size: 1.8rem;
+  cursor: pointer;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: normal;
   padding: 16px 24px;
-  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.5) inset;
+  /* box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.5) inset; */
+  /* background: #e0e0e0; */
+  /* box-shadow: 6px 6px 15px #d3d3d3, -6px -6px 15px #ededed; */
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.57));
 }
 
 .landing_text {
   text-transform: uppercase;
-
-  color: #4b4b92;
-
+  /* color: #4b4b92; */
+  color: #fff;
   font-family: "Coalition", sans-serif;
   font-size: 8.25rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-align: center;
+  padding-top: 8rem;
   z-index: 2;
-  background: linear-gradient(103deg, #bdbdbd 40.55%, #a4a3a4 64.89%);
+  /* background: linear-gradient(103deg, #bdbdbd 40.55%, #a4a3a4 64.89%); */
+  background: #ffffff;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .landing_text2 {
-  color: #e0e0e0;
-  font-family: Work Sans;
+  color: #ffffff;
+  font-family: 'Work Sans';
   font-size: 1.9375rem;
   font-style: normal;
   font-weight: 400;
@@ -81,7 +93,7 @@
   z-index: 1;
 }
 .landing_subheading {
-  font-family: Work Sans;
+  font-family: 'Work Sans';
   font-size: 1.75rem;
   font-style: normal;
   font-weight: 400;
@@ -109,13 +121,13 @@
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   color: #fff;
-  font : bold 800 20px/1 'Josefin Sans', sans-serif;
-  letter-spacing: .5em;
+  font: bold 800 20px/1 "Josefin Sans", sans-serif;
+  letter-spacing: 0.5em;
   text-decoration: none;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
 .demo a:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 #section07 a span {
@@ -141,13 +153,13 @@
 }
 #section07 a span:nth-of-type(2) {
   top: 16px;
-  -webkit-animation-delay: .15s;
-  animation-delay: .15s;
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
 }
 #section07 a span:nth-of-type(3) {
   top: 32px;
-  -webkit-animation-delay: .3s;
-  animation-delay: .3s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 @-webkit-keyframes sdb07 {
   0% {
@@ -203,7 +215,7 @@
     font-size: 2rem;
   }
   .landing_subheading {
-    font-family: Work Sans;
+    font-family: 'Work Sans';
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
@@ -228,19 +240,19 @@
 
 @media screen and (max-width: 500px) {
   .landing_button {
-    border-radius: 1.2rem;
+    /* border-radius: 1.2rem;
     border: 1px solid #7f7f7f;
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px); */
     color: #fff;
-    font-family: Work Sans;
+    font-family: 'Work Sans';
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     padding: 10px 22px;
-    box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.5) inset;
-    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.57));
+    /* box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.5) inset;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.57)); */
   }
   .landing_image {
     height: 60vh;
@@ -251,7 +263,7 @@
     font-size: 3rem;
   }
   .landing_subheading {
-    font-family: Work Sans;
+    font-family: 'Work Sans';
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
@@ -277,7 +289,7 @@
     font-size: 3rem;
   }
   .landing_subheading {
-    font-family: Work Sans;
+    font-family: 'Work Sans';
     font-size: 0.8rem;
     font-style: normal;
     font-weight: 400;

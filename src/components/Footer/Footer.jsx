@@ -4,6 +4,7 @@ import mec_logo from "../../assets/png/mec_logo.png";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FiLinkedin, FiFacebook } from "react-icons/fi";
 import { RiTwitterXFill } from "react-icons/ri";
+
 const Footer = () => {
   return (
     <div className="footer__main">
