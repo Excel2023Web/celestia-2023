@@ -4,6 +4,7 @@ import mec_logo from "../../assets/png/mec_logo.png";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FiLinkedin, FiFacebook } from "react-icons/fi";
 import { RiTwitterXFill } from "react-icons/ri";
+import heart from "../../assets/svg/heart.svg";
 
 const Footer = () => {
   return (
@@ -44,7 +45,7 @@ const Footer = () => {
             <FiFacebook />
           </a>
         </div>
-        <p>Made with 🧡 Excel 2023</p>
+        <p>Made with <img className="heart_icon" src={heart} alt=" " /> Excel 2023</p>
       </div>
       <a href="https://www.excelmec.org/" target="_blank" rel="noreferrer">
         {" "}
