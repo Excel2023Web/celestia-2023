@@ -4,7 +4,6 @@ import { useSpring, animated } from "react-spring";
 // import { duration } from "@mui/material";
 import { Link } from "react-scroll";
 const Landing = () => {
-  // Define animations using react-spring
   const landingTextAnimation = useSpring({
     from: { opacity: 0, transform: "translateY(-20px)" },
     to: { opacity: 1, transform: "translateY(0)" },
@@ -14,37 +13,36 @@ const Landing = () => {
       tension: 100,
     },
     delay: 600,
-    // Adjust the duration as needed
   });
 
   const subheadingAnimation1 = useSpring({
     from: { opacity: 0, transform: "translateX(-40px)" },
     to: { opacity: 1, transform: "translateX(0)" },
     config: { duration: 700 },
-    delay: 1100, // Adjust the duration as needed
+    delay: 1100,
   });
   const subheadingAnimation2 = useSpring({
     from: { opacity: 0, transform: "translateX(0px)" },
     to: { opacity: 1, transform: "translateX(0)" },
     config: { duration: 700 },
-    delay: 1300, // Adjust the duration as needed
+    delay: 1300,
   });
   const subheadingAnimation3 = useSpring({
     from: { opacity: 0, transform: "translateX(40px)" },
     to: { opacity: 1, transform: "translateX(0)" },
     config: { duration: 700 },
-    delay: 1100, // Adjust the duration as needed
+    delay: 1100,
   });
 
   const buttonAnimation = useSpring({
     from: { opacity: 0, transform: "scale(0.6)" },
     to: { opacity: 1, transform: "scale(1)" },
     config: { duration: 1000 },
-    delay: 3000, // Adjust the duration as needed
+    delay: 3000, 
   });
 
   return (
-    <div id="home" className="landing_container">
+    <div className="landing_container" id="home">
       <animated.div className="landing_text" style={landingTextAnimation}>
         Celestia
       </animated.div>
@@ -72,7 +70,7 @@ const Landing = () => {
         <animated.button className="landing_button" style={buttonAnimation}>
           Register Now
         </animated.button>
-        <section id="section07" class="demo">
+        <section id="section07" className="demo">
           <Link to="about" style={{cursor:"pointer"}}>
             <span></span>
             <span></span>

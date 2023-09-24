@@ -8,6 +8,7 @@ const About = () => {
     <div className='about__out__container' id='about'>
         <div className='about-header'>
           <img className='heading' src={about_heading} alt="" />
+          {/* <h2>About</h2> */}
         </div>
         <div className='about-body'>
           <p>The FinTech conference, conducted as a part of Excel 2022, aims to educate students on matters of financial literacy and inform them of the latest developments in the world of Fintech. </p>
