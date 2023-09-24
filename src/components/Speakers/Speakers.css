@@ -6,11 +6,12 @@
   flex-direction: column;
   align-items: center;
   /* padding-bottom: 3rem; */
-  background-image: url("../../assets/png/speakers_bg.jpg");
+  background-image: url("../../assets/svg/new_speakersBg.svg");
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 1rem;
   padding-bottom: 7rem; 
+  opacity: 0.8;
   /* justify-content: center; */
 }
 .spkrs__container {
