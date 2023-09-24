@@ -1,5 +1,5 @@
 // import img from "../png/contact_img.png";
-import { abhishek, faiza1, mathew, vishnu} from "../png/contacts";
+import { abhishek, faiza1, mathew, vishnu, vaishnav} from "../png/contacts";
 export const contactsData = [
     {
       id: 1,
@@ -43,7 +43,7 @@ export const contactsData = [
       id: 5,
       name: "Vaishnav S",
       designation: "Conference and Workshops Manager(PC)",
-      image: abhishek,
+      image: vaishnav,
       phone: "+918301072168",
       email: "vaishnavs.mec@gmail.com",
       linkedIn: "https://www.linkedin.com/in/vaishnav-s-550201203",
