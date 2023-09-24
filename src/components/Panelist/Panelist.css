@@ -8,7 +8,7 @@
     justify-content: flex-start;
     /* height: 140vh; */
     width: 100%;
-    background-image: url("../../assets/jpg/orage__grd.jpeg");
+    background-image: url("../../assets/jpg/stars_panleist.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom:10rem;
@@ -75,6 +75,7 @@
 }
 .slider__img{
   pointer-events: none;
+  border-radius: 2rem;
   width: 30rem;
   height:20rem;
 }
