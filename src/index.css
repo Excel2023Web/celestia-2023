@@ -5,12 +5,12 @@ html {
   scroll-behavior: smooth;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Coalition";
   src: local("Coalition"),
       url("./assets/font/Coalition_v2..ttf") format("opentype");
   font-weight: 500;
-}
+} */
 
 body {
   margin: 0;
@@ -41,10 +41,9 @@ code {
     monospace;
 }
 
-:root {
+/* :root {
   --primary-font: 'Coalition';
-
-}
+} */
 /* :root {
   --themeColour: #2cb7c7;
   --themeColour: radial-gradient(
