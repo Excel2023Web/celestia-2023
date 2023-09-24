@@ -1,6 +1,6 @@
 import React from 'react';
 import "./About.css";
-import about_heading from "../../assets/svg/about_heading.svg";
+import about_heading from "../../assets/svg/ABOUT.svg";
 
 const About = () => {
   return (
