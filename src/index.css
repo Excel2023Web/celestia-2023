@@ -42,9 +42,9 @@ code {
 }
 
 
-/* :root {
-  --primary-font: 'Coalition';
-} */
+:root {
+  --primary-font: 'Work Sans';
+}
 /* :root {
   --themeColour: #2cb7c7;
   --themeColour: radial-gradient(

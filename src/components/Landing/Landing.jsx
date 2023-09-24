@@ -1,6 +1,7 @@
 import React from "react";
 import "./Landing.css";
 import { useSpring, animated } from "react-spring";
+import Countdown from "../Counter/Counter";
 // import { duration } from "@mui/material";
 // import { Link } from "react-scroll";
 const Landing = () => {
@@ -46,6 +47,7 @@ const Landing = () => {
       <animated.div className="landing_text" style={landingTextAnimation}>
         Celestia
       </animated.div>
+      <Countdown/>
       <div className="mid_container">
         <div className="landing_text2 row-container">
           <animated.p
