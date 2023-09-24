@@ -288,9 +288,9 @@
         width: 17rem;
     }
 }
-@media screen and (max-width: 380px){
+@media screen and (max-width: 385px){
     .contact__card >img {
-        width: 8.2rem;
+        width: 9rem;
     }
     .contact__card{
         width: 20rem;
@@ -329,6 +329,9 @@
         padding-right: 2rem;
         border: 1px solid rgba(36, 34, 36, 0.5);
         background: rgba(36, 34, 36, 0.7);
+    }
+    .contact__card >img {
+        width: 11rem;
     }
 }
   
