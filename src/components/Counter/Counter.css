@@ -1,84 +1,96 @@
-.Countdown {
-    /* margin: 10px auto; */
-    /* padding-top: 20px; */
-    gap: 2rem;
-    font-family: var(--primary-font);
-    color: #fff;
-    font-size: 1.5rem;
-    width: content;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.timer__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.timer__box {
+  /* width: 40%; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 3rem;
+  flex-direction: row;
+}
+.hr__box {
+  display: flex;
+  gap: 20px;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.time__digit {
+  font-size: 2.1rem;
+  font-family: var(--primary-font);
+  font-weight: 500;
+}
+.time__unit {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: -20px;
+}
+@media only screen and (max-width: 1300px) {
+}
+@media (min-device-width: 20px) and (max-device-width: 500px) {
+}
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 1100px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 600px) {
+  .time__digit {
+    font-size: 2.3;
   }
-  
-  .Countdown-col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 6.5rem;
+  .time__unit {
+    font-size: 2.1rem;
   }
-  
-  .Countdown-col-element {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
-    /* background: linear-gradient(180deg, #1c9528 50%, #16822f 50%); */
-    border-radius: 0px 25.9624px 0px 25.9624px;
-    /* box-shadow: 0px 12px #000000; */
-    padding: 0.6rem 1rem;
-    width: 50px;
-    height: 60px;
-  }
-  
-  .Countdown-col-element strong {
-    
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 600;
-    font-size: .5rem;
-    text-transform: uppercase;
-  }
-  
-  .Counter-sub {
-    font-family: var(--primary-font);
+}
+@media screen and (max-width: 500px) {
+  .time__digit {
     font-size: 1.8rem;
-    font-weight: 400;
-    /* line-height: 38px; */
-    /* letter-spacing: 0.07em; */
-    /* margin-top: 1.5rem; */
-    /* margin-bottom: 0.5rem; */
   }
-  
-  @media screen and (min-width: 1080px) {
-    .Countdown-col-element strong {
-      font-size: 2.75rem;
-      text-align: left;
-    }
-    .Countdown-col-element span {
-      margin-left: 6px;
-    }
-  
-    .Countdown-col-element {
-      margin-right: 10px;
-    }
+  .time__unit {
+    font-size: 1.5rem;
   }
-  
-  @media screen and (max-width: 1080px) {
-    .Countdown-col-element strong {
-      font-size: 2rem;
-      text-align: center;
-    }
-  
-    .Countdown-col-element {
-      margin: 0 4px;
-      width: 60px;
-      height: 50px;
-    }
-  
-    .Counter-sub {
-      margin-top: 0.5rem;
-      margin-bottom: 2.5rem;
-    }
+  .timer__box {
+    gap: 2.6rem;
   }
+}
+
+@media screen and (max-width: 400px) {
+  .time__digit {
+    font-size: 1.5rem;
+  }
+  .time__unit {
+    font-size: 1.2rem;
+  }
+  .timer__box {
+    gap: 2.2rem;
+  }
+}
+@media screen and (max-width: 370px) {
+  .timer__box {
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .timer__box {
+    gap: 1.7rem;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+}
+
+@media only screen and (device-width: 768px) {
+}
