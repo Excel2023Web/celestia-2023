@@ -211,7 +211,7 @@
     bottom: 40px;
   }
       .landing_text {
-    font-size: 5.85rem;
+    font-size: 5.65rem;
   }
   .landing_text2 {
     font-size: 2rem;
@@ -225,7 +225,7 @@
 }
 @media screen and (max-width: 650px) {
       .landing_text {
-    font-size: 5.7rem;
+    font-size: 5.2rem;
   }
   .landing_text2 {
     font-size: 2rem;
