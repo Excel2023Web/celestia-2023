@@ -15,7 +15,7 @@ const Contacts = () => {
             </div>
             <div className='contacts__container'>
             {contactsData.map((contact) => (
-                <div className="contact__card" data-aos="fade-up">
+                <div className="contact__card" data-aos="fade-up" key={contact.id}>
                     <img src={contact.image} alt=" " />
                     <div className="contact__content">
                         <div className="contact__context">
@@ -41,7 +41,7 @@ const Contacts = () => {
                                 <a 
                                 target="_blank"
                                 rel="noreferrer"
-                                href={contact.linkedin}
+                                href={contact.linkedIn}
                                 >
                                     <FaLinkedinIn />
                                 </a>

@@ -15,7 +15,7 @@ const Timeline = () => {
 
   const customTheme = {
     lineColor: "#ffff",
-    fontFamily: "Brygada 1918",
+    fontFamily: "Work Sans",
   };
 
   const gradient =

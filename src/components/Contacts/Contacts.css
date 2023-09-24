@@ -21,6 +21,12 @@
     padding-bottom: 6rem;
 }
 
+.contact__context:hover {
+    box-shadow: 0px 0px 84px -29px #d44c3b;
+    -webkit-box-shadow: 0px 0px 84px -29px #d44c3b;
+    -moz-box-shadow: 0px 0px 84px -29px #d44c3b;
+}
+
 .contacts__container {
     width: 100%;
     display: flex;
@@ -87,6 +93,10 @@
     font-size: 1.25rem;
     /* padding: 0.625rem 0.625rem; */
     /* background: #ffffff; */
+}
+
+.icons__container >a:hover {
+    color: #d44c3b;
 }
 
 .contact__card >img {
@@ -171,6 +181,12 @@
     }
     .contact__context {
         width: 13rem;
+        padding-right: 0rem;
+        padding-left: 6rem;
+    }
+
+    .icons__container {
+        padding-top: 0.5rem;
     }
 }
 
@@ -197,7 +213,9 @@
         width: 21.5rem;
     }
     .contact__context {
-        width: 12rem;
+        width: 12.2rem;
+        padding-left: 5.8rem;
+        padding-right: 0rem;
     }
 }
 
@@ -219,7 +237,7 @@
     }
 
     .contact__context {
-        padding-left: 4.5rem;
+        padding-left: 5.3rem;
     }
 }
 
@@ -239,7 +257,7 @@
     }
     .contact__context {
         padding-right: 0rem;
-        padding-left: 5rem;
+        padding-left: 5.3rem;
     }
 }
 @media screen and (max-width: 425px) {
@@ -270,16 +288,47 @@
         width: 17rem;
     }
 }
-@media screen and (max-width: 370px){
+@media screen and (max-width: 380px){
+    .contact__card >img {
+        width: 8.2rem;
+    }
     .contact__card{
-        width: 23rem;
-        height: 9rem;
+        width: 20rem;
+        height: 7rem;
     }
 }
-@media screen and (max-width: 350px){
-    .contact__card{
-        width: 21rem;
-        height: 8.5rem;
+@media screen and (max-width: 360px){
+    .contact__card {
+        width: 30rem;
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* gap: 1.5rem; */
+        padding-left: 4rem;
+        padding-right: 5rem;
+        padding-bottom: 6rem;
+    }
+    .contact__context {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+        backdrop-filter: blur( 0.5px );
+        -webkit-backdrop-filter: blur( 0.5px );
+        border-radius: 2rem;
+        width: 100%;
+        /* height: 7rem; */
+        margin: -1.95rem;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        /* padding-left: 5rem; */
+        margin-top: -2rem;
+        padding-right: 2rem;
+        border: 1px solid rgba(36, 34, 36, 0.5);
+        background: rgba(36, 34, 36, 0.7);
     }
 }
   
