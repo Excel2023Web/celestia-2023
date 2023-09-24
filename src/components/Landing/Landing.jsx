@@ -73,7 +73,7 @@ const Landing = () => {
           Register Now
         </animated.button>
         <section id="section07" class="demo">
-          <Link to="#home">
+          <Link to="about" style={{cursor:"pointer"}}>
             <span></span>
             <span></span>
             <span></span>
