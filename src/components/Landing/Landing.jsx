@@ -2,7 +2,7 @@ import React from "react";
 import "./Landing.css";
 import { useSpring, animated } from "react-spring";
 // import { duration } from "@mui/material";
-// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 const Landing = () => {
   const landingTextAnimation = useSpring({
     from: { opacity: 0, transform: "translateY(-20px)" },
@@ -38,7 +38,7 @@ const Landing = () => {
     from: { opacity: 0, transform: "scale(0.6)" },
     to: { opacity: 1, transform: "scale(1)" },
     config: { duration: 1000 },
-    delay: 3000, 
+    delay: 3000,
   });
 
   return (
@@ -70,13 +70,13 @@ const Landing = () => {
         <animated.button className="landing_button" style={buttonAnimation}>
           Register Now
         </animated.button>
-        {/* <section id="section07" className="demo"> */}
-          {/* <Link to="about" style={{cursor:"pointer"}}>
+        <section id="section07" className="demo">
+          <Link to="about" style={{ cursor: "pointer" }}>
             <span></span>
             <span></span>
             <span></span>
-          </Link> */}
-        {/* </section> */}
+          </Link>
+        </section>
       </div>
     </div>
   );

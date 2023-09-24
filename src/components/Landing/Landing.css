@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   gap: 16px;
   /* gap: 4rem; */
 }
@@ -140,8 +140,8 @@
   position: absolute;
   top: 0;
   left: 50%;
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   margin-left: -12px;
   border-left: 3px solid #fff;
   border-bottom: 3px solid #fff;
@@ -207,6 +207,9 @@
 
 
 @media screen and (max-width: 800px) {
+  .demo a{
+    bottom: 40px;
+  }
       .landing_text {
     font-size: 5.85rem;
   }
@@ -237,6 +240,7 @@
 
 
 @media screen and (max-width: 600px) {
+ 
   .landing_image {
     height: 60vh;
     transform: translate(-30%, 0%);
