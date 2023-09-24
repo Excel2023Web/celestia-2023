@@ -33,19 +33,27 @@
   /* gap: 4rem; */
 }
 .landing_button {
-  border-radius: 1.2rem;
-  border: 1px solid #7f7f7f;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(40px);
+  /* border-radius: 1.2rem; */
+  /* border: 1px solid #7f7f7f; */
+  /* background: rgba(255, 255, 255, 0.1); */
+  /* backdrop-filter: blur(40px); */
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   color: #fff;
-  font-family: Work Sans;
+  font-family: 'Work Sans';
   font-size: 1.8rem;
   cursor: pointer;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: normal;
   padding: 16px 24px;
-  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.5) inset;
+  /* box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.5) inset; */
+  /* background: #e0e0e0; */
+  box-shadow: 6px 6px 15px #d3d3d3, -6px -6px 15px #ededed;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.57));
 }
 
@@ -69,7 +77,7 @@
 }
 .landing_text2 {
   color: #ffffff;
-  font-family: Work Sans;
+  font-family: 'Work Sans';
   font-size: 1.9375rem;
   font-style: normal;
   font-weight: 400;
@@ -85,7 +93,7 @@
   z-index: 1;
 }
 .landing_subheading {
-  font-family: Work Sans;
+  font-family: 'Work Sans';
   font-size: 1.75rem;
   font-style: normal;
   font-weight: 400;
@@ -113,13 +121,13 @@
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   color: #fff;
-  font : bold 800 20px/1 'Josefin Sans', sans-serif;
-  letter-spacing: .5em;
+  font: bold 800 20px/1 "Josefin Sans", sans-serif;
+  letter-spacing: 0.5em;
   text-decoration: none;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
 .demo a:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 #section07 a span {
@@ -145,13 +153,13 @@
 }
 #section07 a span:nth-of-type(2) {
   top: 16px;
-  -webkit-animation-delay: .15s;
-  animation-delay: .15s;
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
 }
 #section07 a span:nth-of-type(3) {
   top: 32px;
-  -webkit-animation-delay: .3s;
-  animation-delay: .3s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 @-webkit-keyframes sdb07 {
   0% {
@@ -194,7 +202,7 @@
     font-size: 2rem;
   }
   .landing_subheading {
-    font-family: Work Sans;
+    font-family: 'Work Sans';
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
@@ -224,7 +232,7 @@
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(40px);
     color: #fff;
-    font-family: Work Sans;
+    font-family: 'Work Sans';
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 600;
@@ -242,7 +250,7 @@
     font-size: 3rem;
   }
   .landing_subheading {
-    font-family: Work Sans;
+    font-family: 'Work Sans';
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
@@ -268,7 +276,7 @@
     font-size: 3rem;
   }
   .landing_subheading {
-    font-family: Work Sans;
+    font-family: 'Work Sans';
     font-size: 0.8rem;
     font-style: normal;
     font-weight: 400;
