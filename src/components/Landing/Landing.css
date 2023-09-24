@@ -47,7 +47,7 @@
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   color: #fff;
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   font-size: 1.8rem;
   cursor: pointer;
   font-style: normal;
@@ -61,7 +61,7 @@
 }
 
 .landing_text {
-    transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   text-transform: uppercase;
   /* color: #4b4b92; */
   color: #fff;
@@ -81,7 +81,7 @@
 }
 .landing_text2 {
   color: #ffffff;
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   font-size: 1.9375rem;
   font-style: normal;
   font-weight: 400;
@@ -97,11 +97,11 @@
   z-index: 1;
 }
 .landing_subheading {
-  font-family: 'Work Sans';
-  font-size: 1.75rem;
+  font-family: "Work Sans";
+  font-size: 2rem;
   font-style: normal;
-  font-weight: 400;
-    transition: all 0.2s ease-in-out;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
 }
 
 .row-container {
@@ -110,7 +110,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   gap: 32px;
   transition: all 0.2s ease-in-out;
 }
@@ -191,7 +191,7 @@
 }
 
 @media screen and (max-width: 992px) {
-    .landing_text {
+  .landing_text {
     font-size: 6rem;
   }
   .landing_text2 {
@@ -203,15 +203,13 @@
     font-style: normal;
     font-weight: 400;
   }
-
 }
 
-
 @media screen and (max-width: 800px) {
-  .demo a{
+  .demo a {
     bottom: 40px;
   }
-      .landing_text {
+  .landing_text {
     font-size: 5.65rem;
   }
   .landing_text2 {
@@ -225,7 +223,7 @@
   }
 }
 @media screen and (max-width: 650px) {
-      .landing_text {
+  .landing_text {
     font-size: 5.2rem;
   }
   .landing_text2 {
@@ -239,9 +237,7 @@
   }
 }
 
-
 @media screen and (max-width: 600px) {
- 
   .landing_image {
     height: 60vh;
     transform: translate(-30%, 0%);
@@ -253,7 +249,7 @@
     font-size: 2rem;
   }
   .landing_subheading {
-    font-family: 'Work Sans';
+    font-family: "Work Sans";
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
@@ -283,7 +279,7 @@
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(40px); */
     color: #fff;
-    font-family: 'Work Sans';
+    font-family: "Work Sans";
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 600;
@@ -301,7 +297,7 @@
     font-size: 3rem;
   }
   .landing_subheading {
-    font-family: 'Work Sans';
+    font-family: "Work Sans";
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
@@ -327,7 +323,7 @@
     font-size: 3rem;
   }
   .landing_subheading {
-    font-family: 'Work Sans';
+    font-family: "Work Sans";
     font-size: 0.8rem;
     font-style: normal;
     font-weight: 400;
