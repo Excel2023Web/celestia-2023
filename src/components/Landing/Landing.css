@@ -23,6 +23,7 @@
   background-repeat: no-repeat;
   /* background-position: cover; */
   background-size: cover;
+  transition: all 0.2s;
   /* opacity: 2; */
 }
 .mid_container {
@@ -30,6 +31,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 16px;
   /* gap: 4rem; */
 }
 .landing_button {
@@ -58,6 +60,7 @@
 }
 
 .landing_text {
+    transition: all 0.2s ease-in-out;
   text-transform: uppercase;
   /* color: #4b4b92; */
   color: #fff;
@@ -97,6 +100,7 @@
   font-size: 1.75rem;
   font-style: normal;
   font-weight: 400;
+    transition: all 0.2s ease-in-out;
 }
 
 .row-container {
@@ -107,6 +111,7 @@
   width: 100%;
   margin-top: 2rem;
   gap: 32px;
+  transition: all 0.2s ease-in-out;
 }
 #section07 a {
   color: #fff;
@@ -200,8 +205,36 @@
 
 }
 
+
 @media screen and (max-width: 800px) {
+      .landing_text {
+    font-size: 5.85rem;
+  }
+  .landing_text2 {
+    font-size: 2rem;
+  }
+  .landing_subheading {
+    font-family: Work Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+  }
 }
+@media screen and (max-width: 650px) {
+      .landing_text {
+    font-size: 5.7rem;
+  }
+  .landing_text2 {
+    font-size: 2rem;
+  }
+  .landing_subheading {
+    font-family: Work Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
 
 @media screen and (max-width: 600px) {
   .landing_image {
@@ -209,7 +242,7 @@
     transform: translate(-30%, 0%);
   }
   .landing_text {
-    font-size: 4.2rem;
+    font-size: 4.5rem;
   }
   .landing_text2 {
     font-size: 2rem;
