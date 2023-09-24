@@ -3,7 +3,7 @@ import Carousel from "react-spring-3d-carousel";
 import { v4 as uuidv4 } from 'uuid';
 import { config } from "react-spring";
 import Pic1 from "../../assets/png/panelist_img.jpg";
-import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
+// import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 import { useSwipeable } from "react-swipeable";
 
 function ImageSlider() {
@@ -80,9 +80,9 @@ function ImageSlider() {
 
   return (
     <div className="panelist__caroussel" data-aos="fade-up" {...handlers}>
-        <button className="panelist__caroussel__btn" onClick={() => {
+        {/* <button className="panelist__caroussel__btn" onClick={() => {
               setGoToSlide((prevGoToSlide) => prevGoToSlide - 1);
-            }} data-aos="fade-up"><FaAngleLeft /></button>
+            }} data-aos="fade-up"><FaAngleLeft /></button> */}
         <div className="panelist__caroussel__img" data-aos="fade-up">
           <Carousel
             slides={slides}
@@ -94,9 +94,9 @@ function ImageSlider() {
           />
         </div>
 
-        <button className="panelist__caroussel__btn" onClick={() => {
+        {/* <button className="panelist__caroussel__btn" onClick={() => {
               setGoToSlide((prevGoToSlide) => prevGoToSlide + 1);
-            }} data-aos="fade-up"><FaAngleRight /></button>
+            }} data-aos="fade-up"><FaAngleRight /></button> */}
       </div>
    
   );

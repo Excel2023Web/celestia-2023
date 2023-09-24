@@ -101,6 +101,7 @@
 .speaker__heading {
   width: 25rem;
   height: 8rem;
+  pointer-events: none;
 }
 
 .spkr__context >p {

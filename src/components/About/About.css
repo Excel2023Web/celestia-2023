@@ -44,6 +44,7 @@
 .heading {
     width: 18rem;
     height: 8rem;
+    pointer-events: none;
 }
 
 

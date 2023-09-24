@@ -78,6 +78,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  pointer-events: none;
 }
 .landing_text2 {
   color: #ffffff;
