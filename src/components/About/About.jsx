@@ -8,7 +8,7 @@ const About = () => {
       <div className="about__out__container" id="about">
         <div className="about-header">
           <img
-            className="heading"
+            className='speaker__heading'
             src={about_heading}
             data-aos="zoom-in"
             alt=""

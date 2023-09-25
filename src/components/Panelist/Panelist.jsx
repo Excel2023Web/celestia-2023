@@ -8,7 +8,7 @@ const Panelist = () => {
     <>
     <div className='panelist__out__container' id="panelist" >
       <div className='panelist__container'>
-        <img className='panelist__heading' src={heading} alt=" " data-aos="fade-up"></img> 
+        <img className='speaker__heading' src={heading} alt=" " data-aos="fade-up"></img> 
       </div>
       <ImageSlider/>
       </div>

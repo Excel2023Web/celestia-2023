@@ -31,7 +31,7 @@ const Timeline = () => {
       <div className="timeline__container__out">
         {/* <p className='panelist__heading' data-aos="fade-up">Timeline</p> */}
         <img
-          className="timeline__heading"
+          className='speaker__heading'
           src={timeline}
           alt=" "
           data-aos="zoom-in"

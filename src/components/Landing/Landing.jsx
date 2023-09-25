@@ -6,8 +6,7 @@ import Stars from "../Stars/Stars";
 import { CiLocationOn } from "react-icons/ci";
 import { SlCalender } from "react-icons/sl";
 import { AiOutlineClockCircle } from "react-icons/ai";
-// import { duration } from "@mui/material";
-// import { Link } from "react-scroll";
+
 const Landing = () => {
   const landingTextAnimation = useSpring({
     from: { opacity: 0, transform: "translateY(-20px)" },
@@ -58,7 +57,9 @@ const Landing = () => {
             className="landing_subheading"
             style={subheadingAnimation1}
           >
-            <CiLocationOn fontWeight={900}/>
+            <a href="https://maps.app.goo.gl/sQVKBrgDTXRCdieH6">
+              <CiLocationOn fontWeight={900} />
+            </a>
             MEC, Cochin
           </animated.p>
           <animated.p
@@ -72,7 +73,7 @@ const Landing = () => {
             className="landing_subheading"
             style={subheadingAnimation3}
           >
-            <AiOutlineClockCircle fontWeight={900}/>
+            <AiOutlineClockCircle fontWeight={900} />
             11:00 AM
           </animated.p>
         </div>

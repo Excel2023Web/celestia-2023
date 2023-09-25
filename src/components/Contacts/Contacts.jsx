@@ -11,7 +11,7 @@ const Contacts = () => {
         <div className='contact__out_container' id='contact'>
             <div className='panelist__container'>
                 {/* <p className='panelist__heading' data-aos="fade-up">Contacts</p> */}
-                <img className='contact__img' src={Contact} alt=" " data-aos="fade-up"></img> 
+                <img className='speaker__heading' src={Contact} alt=" " data-aos="fade-up"></img> 
             </div>
             <div className='contacts__container'>
             {contactsData.map((contact,index) => (
