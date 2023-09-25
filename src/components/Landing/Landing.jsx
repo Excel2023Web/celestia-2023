@@ -17,7 +17,7 @@ const Landing = () => {
       friction: 40,
       tension: 100,
     },
-    delay: 600,
+    delay: 900,
   });
 
   const subheadingAnimation1 = useSpring({
@@ -58,21 +58,21 @@ const Landing = () => {
             className="landing_subheading"
             style={subheadingAnimation1}
           >
-            <CiLocationOn />
+            <CiLocationOn fontWeight={900}/>
             MEC, Cochin
           </animated.p>
           <animated.p
             className="landing_subheading"
             style={subheadingAnimation2}
           >
-            <SlCalender />
+            <SlCalender fontWeight={900} />
             14 October 2023
           </animated.p>
           <animated.p
             className="landing_subheading"
             style={subheadingAnimation3}
           >
-            <AiOutlineClockCircle />
+            <AiOutlineClockCircle fontWeight={900}/>
             11:00 AM
           </animated.p>
         </div>

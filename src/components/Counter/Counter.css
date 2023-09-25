@@ -22,6 +22,7 @@
 }
 .time__digit {
   font-size: 2rem;
+  color: #dcdcdc;
   font-family: var(--primary-font);
   font-weight: 500;
 }
@@ -29,6 +30,7 @@
   font-family: var(--primary-font);
   font-weight: 400;
   font-size: 1.5rem;
+  color: #dcdcdc;
   margin-top: -20px;
 }
 @media only screen and (max-width: 1300px) {
@@ -87,10 +89,10 @@
   .timer__box {
     gap: 1.7rem;
   }
-  .time__digit{
+  .time__digit {
     font-size: 0.95rem;
   }
-  .time__unit{
+  .time__unit {
     font-size: 0.7rem;
   }
 }
