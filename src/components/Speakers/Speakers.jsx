@@ -11,7 +11,7 @@ const Speakers = () => {
       <div className='speaker_text' data-aos="zoom-in">
         {/* <p className='panelist__heading' data-aos="zoom-in"> <FaLinkedinIn className='linkedin__icon' color='#071C44'/> Speakers</p> */}
         {/* <img className='speaker__heading' src={heading} alt=" " data-aos="zoom-in"></img>  */}
-        Speaker
+        Speakers
       </div>
       <div className="spkrs__container">
       {speakersData.map((contact) => (
