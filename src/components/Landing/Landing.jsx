@@ -3,6 +3,9 @@ import "./Landing.css";
 import { useSpring, animated } from "react-spring";
 import Countdown from "../Counter/Counter";
 import Stars from "../Stars/Stars";
+import { CiLocationOn } from "react-icons/ci";
+import { SlCalender } from "react-icons/sl";
+import { AiOutlineClockCircle } from "react-icons/ai";
 // import { duration } from "@mui/material";
 // import { Link } from "react-scroll";
 const Landing = () => {
@@ -44,40 +47,41 @@ const Landing = () => {
   });
 
   return (
-    
-      <div className="landing_container" id="home">
-        <animated.div className="landing_text" style={landingTextAnimation}>
-          Celestia
-        </animated.div>
-        <Countdown />
-        <div className="mid_container">
-          <div className="landing_text2 row-container">
-            <animated.p
-              className="landing_subheading"
-              style={subheadingAnimation1}
-            >
-              IMA Hall, Kaloor
-            </animated.p>
-            <animated.p
-              className="landing_subheading"
-              style={subheadingAnimation2}
-            >
-              6 November 2022
-            </animated.p>
-            <animated.p
-              className="landing_subheading"
-              style={subheadingAnimation3}
-            >
-              10:00 AM
-            </animated.p>
-          </div>
-          <animated.button className="landing_button" style={buttonAnimation}>
-            Register Now
-          </animated.button>
+    <div className="landing_container" id="home">
+      <animated.div className="landing_text" style={landingTextAnimation}>
+        Celestia
+      </animated.div>
+      <Countdown />
+      <div className="mid_container">
+        <div className="landing_text2 row-container">
+          <animated.p
+            className="landing_subheading"
+            style={subheadingAnimation1}
+          >
+            <CiLocationOn />
+            MEC, Cochin
+          </animated.p>
+          <animated.p
+            className="landing_subheading"
+            style={subheadingAnimation2}
+          >
+            <SlCalender />
+            14 October 2023
+          </animated.p>
+          <animated.p
+            className="landing_subheading"
+            style={subheadingAnimation3}
+          >
+            <AiOutlineClockCircle />
+            11:00 AM
+          </animated.p>
         </div>
-        <Stars/>
+        <animated.button className="landing_button" style={buttonAnimation}>
+          Register Now
+        </animated.button>
       </div>
-   
+      <Stars />
+    </div>
   );
 };
 
