@@ -1,18 +1,19 @@
 import React from "react";
 import "./About.css";
-import about_heading from "../../assets/svg/ABOUT.svg";
+// import about_heading from "../../assets/svg/ABOUT.svg";
 
 const About = () => {
   return (
     <>
       <div className="about__out__container" id="about">
-        <div className="about-header">
-          <img
+        <div className="about-header" data-aos="zoom-in">
+          {/* <img
             className='speaker__heading'
             src={about_heading}
             data-aos="zoom-in"
             alt=""
-          />
+          /> */}
+          About
           {/* <h2>About</h2> */}
         </div>
         <div className="about-body">

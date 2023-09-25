@@ -14,7 +14,7 @@
 }
 .hr__box {
   display: flex;
-  gap: 0.7rem;
+  /* gap: 0.7rem; */
   height: fit-content;
   justify-content: center;
   align-items: center;
@@ -66,6 +66,9 @@
   }
   .timer__box {
     gap: 2.6rem;
+  }
+  .hr__box {
+    gap: 0.5rem;
   }
 }
 

@@ -4,7 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import timeline from "../../assets/svg/timeline.svg";
+// import timeline from "../../assets/svg/timeline.svg";
 import "./Timeline.css";
 import Aos from "aos";
 
@@ -28,14 +28,15 @@ const Timeline = () => {
 
   return (
     <div className="timeline" id="timeline">
-      <div className="timeline__container__out">
+      <div className="timeline__container__out" data-aos="zoom-in">
         {/* <p className='panelist__heading' data-aos="fade-up">Timeline</p> */}
-        <img
+        {/* <img
           className='speaker__heading'
           src={timeline}
           alt=" "
           data-aos="zoom-in"
-        ></img>
+        ></img> */}
+        Timeline
       </div>
       <div className="timeline__section" data-aos="zoom-in">
         <VerticalTimeline
@@ -51,14 +52,15 @@ const Timeline = () => {
               background: gradient,
               border: "3px solid rgba(146, 146, 146, 0.00)",
               // background: "rgba( 255, 255, 255, 0.1 )",
-              boxShadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
+              boxShadow: "0 8px 32px 0 rgba(212, 76, 59, 0.25)",
               backdropFilter: " blur( 11px )",
               // -webkit-backdrop-filter: "blur( 11px )",
               borderRadius: "10px",
               // 
             }}
             contentArrowStyle={{
-              borderRight: "12px solid  #7f7f7fe3",
+              // borderRight: "12px solid  #7f7f7fe3",
+              display: "none",
             }}
           >
             <h3 className="vertical-timeline-element-title">Heading</h3>
@@ -81,7 +83,7 @@ const Timeline = () => {
               background: gradient,
               border: "3px solid rgba(146, 146, 146, 0.00)",
               // background: "rgba( 255, 255, 255, 0.1 )",
-              boxShadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
+              boxShadow: "0 8px 32px 0 rgba(212, 76, 59, 0.25)",
               backdropFilter: " blur( 11px )",
               // -webkit-backdrop-filter: "blur( 11px )",
               borderRadius: "10px",
@@ -104,7 +106,7 @@ const Timeline = () => {
               background: gradient,
               border: "3px solid rgba(146, 146, 146, 0.00)",
               // background: "rgba( 255, 255, 255, 0.1 )",
-              boxShadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
+              boxShadow: "0 8px 32px 0 rgba(212, 76, 59, 0.25)",
               backdropFilter: " blur( 11px )",
               // -webkit-backdrop-filter: "blur( 11px )",
               borderRadius: "10px",
@@ -131,13 +133,16 @@ const Timeline = () => {
               background: gradient,
               border: "3px solid rgba(146, 146, 146, 0.00)",
               // background: "rgba( 255, 255, 255, 0.1 )",
-              boxShadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
+              boxShadow: "0 8px 32px 0 rgba(212, 76, 59, 0.25)",
               backdropFilter: " blur( 11px )",
               // -webkit-backdrop-filter: "blur( 11px )",
               borderRadius: "10px",
               
             }}
-            contentArrowStyle={{ borderRight: "10px solid #7f7f7fe3" }}
+            contentArrowStyle={{
+              // borderRight: "12px solid  #7f7f7fe3",
+              display: "none",
+            }}
           >
             <h3 className="vertical-timeline-element-title">Heading</h3>
             <p>
@@ -153,14 +158,15 @@ const Timeline = () => {
               background: gradient,
               border: "3px solid rgba(146, 146, 146, 0.00)",
               // background: "rgba( 255, 255, 255, 0.1 )",
-              boxShadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
+              boxShadow: "0 8px 32px 0 rgba(212, 76, 59, 0.25)",
               backdropFilter: " blur( 11px )",
               // -webkit-backdrop-filter: "blur( 11px )",
               borderRadius: "10px",
               
             }}
             contentArrowStyle={{
-              borderRight: "12px solid #7f7f7fe3",
+              // borderRight: "12px solid  #7f7f7fe3",
+              display: "none",
             }}
             date="Final Day"
           >

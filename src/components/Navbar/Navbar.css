@@ -185,4 +185,8 @@ a {
         color: #ffffff;
         cursor: pointer;
     }
+    .nav__logo__img {
+        height: 100%;
+        width: 85px;
+    }
 }

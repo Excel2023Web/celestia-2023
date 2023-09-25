@@ -13,12 +13,23 @@
 }
 
 .about-header {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 2rem 0;
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Coalition", sans-serif;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    z-index: 2;
+    background: #ffffff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    pointer-events: none;
 }
 
 .about-body {
@@ -50,8 +61,15 @@
 
 
 @media only screen and (max-width: 1300px) {
-    .heading {
+    /* .heading {
         width: 16rem;
+    } */
+    .about-header {
+        font-size: 4rem;
+    }
+
+    .about-body {
+        font-size: 1.2rem;
     }
 }
 
@@ -71,6 +89,10 @@
     .heading {
         width: 14rem;
     }
+
+    .about-header {
+        font-size: 3.8rem;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -81,13 +103,16 @@
     
 }
 @media screen and (max-width: 700px) {
-
-    
+    .about-header {
+        font-size: 3.6rem;
+    }
     
 }
 
 @media screen and (max-width: 600px) {
-    
+    .about-header {
+        font-size: 3rem;
+    }
 }
 
 @media screen and (max-width: 550px){
@@ -95,9 +120,24 @@
         font-size: 1.15rem;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+    .about-header {
+        font-size: 2.5rem;
+    }
     .about-body {
         font-size: 1.1rem;
+    }
+}
+@media screen and (max-width: 400px) {
+   
+}
+
+@media screen and (max-width: 360px) {
+    .about-header {
+        font-size: 2.2rem;
+    }
+    .about-body {
+        font-size: 1rem;
     }
 }
 

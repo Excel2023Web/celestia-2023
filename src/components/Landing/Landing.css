@@ -98,7 +98,7 @@
   align-items: center;
   gap: 10px;
   font-family: "Work Sans";
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 550;
   transition: all 0.2s ease-in-out;
@@ -328,5 +328,13 @@
     /* font-size: 0.5rem; */
     font-style: normal;
     /* font-weight: 500; */
+  }
+}
+@media screen and (max-width: 350px) {
+  .landing_text {
+    font-size: 2.7rem;
+  }
+  .landing_subheading {
+    font-size: 0.6rem;
   }
 }

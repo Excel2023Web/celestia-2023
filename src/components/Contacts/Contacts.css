@@ -27,6 +27,28 @@
     -moz-box-shadow: 0px 0px 84px -29px #d44c3b;
 }
 
+.contact_text {
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+    /* color: #fff; */
+    color: #4b4b92;
+    font-family: "Coalition", sans-serif;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    z-index: 2;
+    /* background: #ffffff; */
+    background: linear-gradient(103deg, #bdbdbd 40.55%, #a4a3a4 64.89%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    pointer-events: none;
+}
+
 .contacts__container {
     width: 100%;
     display: flex;
@@ -123,14 +145,13 @@
 } */
 
 @media only screen and (max-width: 1300px) {
-    /* .contact__img {
-        width: 26rem;
-    } */
-
-    .contact__context__name >h2 {
-        font-size: 1.4rem;
+    .contact_text {
+        font-size: 4rem;
     }
 
+    .contact__context__name >h2 {
+        font-size: 1.3rem;
+    }
     /* .contact__card >img {
         width: 13rem;
     }     */
@@ -195,6 +216,9 @@
     /* .contact__img {
         width: 24rem;
     } */
+    .contact_text {
+        font-size: 3.8rem;
+    }
 }
 
 @media only screen and (max-width: 955px) {
@@ -242,8 +266,17 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
+    .contact_text {
+        font-size: 3.6rem;
+    }
+}
 
+
+@media screen and (max-width: 600px) {
+    .contact_text {
+        font-size: 3rem;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -284,10 +317,13 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     /* .contact__img {
         width: 17rem;
     } */
+    .contact_text {
+        font-size: 2.5rem;
+    }
 }
 @media screen and (max-width: 385px){
     .contact__card >img {
@@ -296,6 +332,9 @@
     .contact__card{
         width: 20rem;
         height: 7rem;
+    }
+    .contact_text {
+        font-size: 2.35rem;
     }
 }
 @media screen and (max-width: 360px){
@@ -309,6 +348,9 @@
         padding-left: 4rem;
         padding-right: 5rem;
         padding-bottom: 6rem;
+    }
+    .contact_text {
+        font-size: 2.2rem;
     }
     .contact__context {
         display: flex;
@@ -334,6 +376,12 @@
     /* .contact__card >img {
         width: 11rem;
     } */
+}
+
+@media only screen and (max-width: 330px) {
+    .contact_text {
+        font-size: 2rem;
+    }
 }
   
 @media only screen and (min-device-width: 320px) and (max-device-width: 

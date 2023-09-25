@@ -99,10 +99,29 @@
   font-size: 0.8rem;
 }
 
-.speaker__heading {
+/* .speaker__heading {
   width: 25rem;
   height: 8rem;
   pointer-events: none;
+} */
+.speaker_text {
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Coalition", sans-serif;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    z-index: 2;
+    background: #ffffff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    pointer-events: none;
 }
 
 .spkr__context >p {
@@ -129,8 +148,8 @@
     font-size: 1.1rem;
   }
 
-  .linkedin__icon {
-    font-size: 0.7rem;
+  .speaker_text {
+    font-size: 4rem;
   }
 
 }
@@ -162,6 +181,9 @@
     font-size: 0.9rem;
   }
 
+  .speaker_text {
+    font-size: 3.8rem;
+  }
   /* .speaker__contact >a{
     font-size: 0.7rem;
   } */
@@ -187,6 +209,9 @@
   .spkrs__container {
     line-height: 1rem;
   }
+  .speaker_text {
+    font-size: 3.6rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -194,11 +219,22 @@
   .speaker__heading {
     width: 16rem;
   }  
+  .speaker_text {
+    font-size: 3rem;
+  }
 
 }
 
-@media screen and (max-width: 400px) {
-
+@media screen and (max-width: 450px) {
+  .speaker_text {
+    font-size: 2.5rem;
+  }
+}
+  
+@media screen and (max-width: 360px) {
+  .speaker_text {
+    font-size: 2.2rem;
+  }
 }
   
 @media only screen and (min-device-width: 320px) and (max-device-width: 
