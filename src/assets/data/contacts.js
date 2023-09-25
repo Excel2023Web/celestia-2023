@@ -51,7 +51,7 @@ export const contactsData = [
     {
       id: 6,
       name: "Sania Maria Sabu",
-      designation: "Social Initiatives Manager",
+      designation: "Event Head",
       image: abhishek,
       phone: "7306928074",
       email: "saniamariasabu.mec@gmail.com",
@@ -60,7 +60,7 @@ export const contactsData = [
     {
       id: 7,
       name: "Sania Maria Sabu",
-      designation: "Social Initiatives Manager",
+      designation: "Event Head",
       image: abhishek,
       phone: "7306928074",
       email: "saniamariasabu.mec@gmail.com",
