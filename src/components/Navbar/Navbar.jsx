@@ -27,30 +27,67 @@ function Navbar() {
     background: scrollPosition > 300 ? "#111111" : "rgba(17, 17, 17, 0.1)",
     boxShadow:
       scrollPosition > 200 ? "0px 2px 9px rgba(0, 0, 0, 0.11)" : "none",
-    backdropFilter: 'blur(10px)'
-  }
+    backdropFilter: "blur(10px)",
+  };
   const navStyle = {
     background: scrollPosition > 300 ? "#111111" : "#111111",
     boxShadow:
       scrollPosition > 200 ? "0px 2px 9px rgba(0, 0, 0, 0.11)" : "none",
-    backdropFilter: 'none'
-  }
+    backdropFilter: "none",
+  };
 
   return (
     <div className="navbar" style={notHome ? navStyle : navStyleHome}>
       <div className="navbar__main container">
         <div className="nav__logo">
-          <NavLink>
+          <a href="https://excelmec.org" target="_blank">
             <img className="nav__logo__img" src={excel_logo} alt="" />
-          </NavLink>
+          </a>
         </div>
         <div className="nav_contents">
-          <NavLink className="nav__link" to="home" smooth={true} duration={500}>Home</NavLink>
-          <NavLink className="nav__link" to="about" smooth={true} duration={500}>About</NavLink>
-          <NavLink className="nav__link" to="speakers" smooth={true} duration={500}>Speakers</NavLink>
-          <NavLink className="nav__link" to="panelist" smooth={true} duration={500}>Panelists</NavLink>
-          <NavLink className="nav__link" to="timeline" smooth={true} duration={500}>Timeline</NavLink>
-          <NavLink className="nav__link" to="contact" smooth={true} duration={500}>Contact Us</NavLink>
+          <NavLink className="nav__link" to="home" smooth={true} duration={500}>
+            Home
+          </NavLink>
+          <NavLink
+            className="nav__link"
+            to="about"
+            smooth={true}
+            duration={500}
+          >
+            About
+          </NavLink>
+          <NavLink
+            className="nav__link"
+            to="speakers"
+            smooth={true}
+            duration={500}
+          >
+            Speakers
+          </NavLink>
+          <NavLink
+            className="nav__link"
+            to="panelist"
+            smooth={true}
+            duration={500}
+          >
+            Panelists
+          </NavLink>
+          <NavLink
+            className="nav__link"
+            to="timeline"
+            smooth={true}
+            duration={500}
+          >
+            Timeline
+          </NavLink>
+          <NavLink
+            className="nav__link"
+            to="contact"
+            smooth={true}
+            duration={500}
+          >
+            Contact Us
+          </NavLink>
         </div>
         {/* <a href='https://rzp.io/l/finnext' target='_blank' rel="noreferrer">
           <button className="nav_btn">Register</button>
@@ -60,7 +97,7 @@ function Navbar() {
           <IoMenu className="nam_menu_icon" />
         </div>
       </div>
-     
+
       <Drawer
         disableScrollLock={true}
         anchor="left"
@@ -71,7 +108,6 @@ function Navbar() {
           width: "90%",
         }}
       >
-        
         <div className="navbar__mob">
           <div className="navbar_mob_close" onClick={handleDrawerClose}>
             <IoClose />
@@ -133,9 +169,8 @@ function Navbar() {
             </NavLink>
           </div>
         </div>
-        <Stars/>
+        <Stars />
       </Drawer>
-      
     </div>
   );
 }

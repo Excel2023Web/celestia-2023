@@ -58,7 +58,7 @@ const Landing = () => {
             style={subheadingAnimation1}
           >
             <a href="https://maps.app.goo.gl/sQVKBrgDTXRCdieH6">
-              <CiLocationOn fontWeight={900} />
+              <CiLocationOn color="#ffff" fontWeight={900} />
             </a>
             MEC, Cochin
           </animated.p>
