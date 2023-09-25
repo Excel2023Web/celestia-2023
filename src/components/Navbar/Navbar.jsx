@@ -40,7 +40,7 @@ function Navbar() {
     <div className="navbar" style={notHome ? navStyle : navStyleHome}>
       <div className="navbar__main container">
         <div className="nav__logo">
-          <a href="https://excelmec.org" target="_blank">
+          <a href="https://excelmec.org" target="_blank" rel="noreferrer">
             <img className="nav__logo__img" src={excel_logo} alt="" />
           </a>
         </div>
