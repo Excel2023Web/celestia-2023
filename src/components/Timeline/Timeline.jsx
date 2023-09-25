@@ -87,7 +87,7 @@ const Timeline = () => {
               borderRadius: "10px",
               
             }}
-            contentArrowStyle={{ borderRight: "10px solid #7f7f7fe3" }}
+            contentArrowStyle={{ borderRight: "10px solid #7f7f7fe3" ,display:"none"}}
           >
             <h3 className="vertical-timeline-element-title">Heading</h3>
             <p>
@@ -112,6 +112,7 @@ const Timeline = () => {
             }}
             contentArrowStyle={{
               borderRight: "12px solid  #7f7f7fe3",
+              display:"none"
             }}
           >
             <h3 className="vertical-timeline-element-title">Heading</h3>

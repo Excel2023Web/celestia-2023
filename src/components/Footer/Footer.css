@@ -6,6 +6,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  min-height: 7rem;
   color: #ffff;
   font-weight: 300;
   font-family: var(--primary-font);
