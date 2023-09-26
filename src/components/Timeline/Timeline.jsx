@@ -36,7 +36,7 @@ const Timeline = () => {
           alt=" "
           data-aos="zoom-in"
         ></img> */}
-        Timeline
+        Schedule
       </div>
       <div className="timeline__section" data-aos="zoom-in">
         <VerticalTimeline

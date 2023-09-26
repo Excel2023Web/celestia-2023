@@ -78,7 +78,7 @@ function Navbar() {
             smooth={true}
             duration={500}
           >
-            Timeline
+            Schedule
           </NavLink>
           <NavLink
             className="nav__link"
@@ -156,7 +156,7 @@ function Navbar() {
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              Timeline
+              Schedule
             </NavLink>
             <NavLink
               data-aos="fade-right"

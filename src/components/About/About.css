@@ -23,7 +23,7 @@
     line-height: normal;
     text-align: center;
     padding-top: 4rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
     z-index: 2;
     background: #ffffff;
     background-clip: text;
@@ -37,14 +37,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    line-height: 2rem;
+    width: 60%;
+    line-height: 1.75rem;
     color: #F0E8E8;
     text-align: center;
     font-family: 'Work Sans';
     font-size: 1.2rem;
     letter-spacing: 0.22px;
-    padding: 2.3rem;
+    padding: 2.5rem;
     flex-wrap: wrap;
     background: rgba(46, 54, 73, 0.30);
     backdrop-filter: blur( 2px );

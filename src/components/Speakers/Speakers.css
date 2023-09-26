@@ -13,7 +13,7 @@
   opacity: 0.8;
 }
 .spkrs__container {
-  width: 100%;
+  width: 80%;
   gap: 7rem;
   display: flex;
   justify-content:center ;
@@ -184,10 +184,20 @@
   .speaker_text {
     font-size: 3.8rem;
   }
+
+  .spkrs__container {
+    width: 90%;
+  }
   /* .speaker__contact >a{
     font-size: 0.7rem;
   } */
 
+}
+
+@media screen and (max-width: 880px) {
+  .spkrs__container {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 800px) {
