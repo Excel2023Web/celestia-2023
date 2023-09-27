@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Carousel from "react-spring-3d-carousel";
 import { v4 as uuidv4 } from 'uuid';
 import { config } from "react-spring";
-import Pic1 from "../../assets/png/panelist_img.jpg";
+import Pic1 from "../../assets/jpg/panelist_img.jpg";
 // import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 import { useSwipeable } from "react-swipeable";
 

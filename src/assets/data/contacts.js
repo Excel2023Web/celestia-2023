@@ -1,5 +1,5 @@
 // import img from "../png/contact_img.png";
-import { abhishek, faiza, mathew, vishnu, vaishnav} from "../png/contacts/index";
+import { abhishek, faiza, mathew, vishnu, vaishnav} from "../gallery/contacts";
 export const contactsData = [
     {
       id: 1,

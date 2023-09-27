@@ -1,5 +1,0 @@
-export {default as mathew} from './mathew.jpeg'
-export {default as abhishek} from './abhishek.jpeg'
-export {default as vaishnav} from './vaishnav.jpeg'
-export {default as vishnu} from './vishnu.jpeg'
-export {default as faiza} from './faiza.jpeg'
