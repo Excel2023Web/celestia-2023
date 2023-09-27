@@ -9,6 +9,7 @@ import {
   About,
   Footer,
   Landing,
+  Collaborators,
 } from "../../components";
 
 const MainPage = () => {
@@ -20,6 +21,7 @@ const MainPage = () => {
         <Speakers />
         <Panelist />
         <Timeline />
+        <Collaborators />
         <Contacts />
         <Footer />
       </div>

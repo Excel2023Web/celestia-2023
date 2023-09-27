@@ -16,7 +16,7 @@
     padding-top: 1rem;
     opacity: 0.8;
     background-position: center; 
-    background-repeat: repeat;
+    /* background-repeat: repeat; */
     background-attachment: fixed;
     background-size: contain;
     -webkit-animation: backgroundScroll 15s linear infinite;
