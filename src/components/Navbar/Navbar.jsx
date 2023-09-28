@@ -4,7 +4,7 @@ import Drawer from "@mui/material/Drawer";
 import { IoMenu, IoClose } from "react-icons/io5";
 import { Link as NavLink } from "react-scroll";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
-import excel_logo from "../../assets/png/excel2023.png";
+import excel_logo from "../../assets/png/excellogo-2023.png";
 import "./Navbar.css";
 import Stars from "../Stars/Stars";
 
