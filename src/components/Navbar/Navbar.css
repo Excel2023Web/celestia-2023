@@ -8,13 +8,10 @@
     left: 0;
     width: 100%;
     background: transparent;
-    /* background-color: #03012c; */
-    /* backdrop-filter: blur(10px); */
     transition: 0.2s ease;
 }
 
 .navbar__main {
-    /* background-color: #03012c; */
     height: 100%;
     display: flex;
     width: 96%;
@@ -128,7 +125,6 @@ a {
         color: #ffffff;
     }
     .navbar__mob {
-        /* background-color: #03012c; */
         background: #000; 
         height: 100%;
         display: flex;

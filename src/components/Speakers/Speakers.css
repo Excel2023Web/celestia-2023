@@ -17,7 +17,6 @@
   gap: 7rem;
   display: flex;
   justify-content:center ;
-  /* padding: 3rem; */
   flex-wrap: wrap;
   flex-direction: row; 
   padding-bottom: 2rem;
@@ -26,7 +25,6 @@
   line-height: 0rem;
 }
 .spkr__card {
-  /* width: 10rem; */
   height: 15rem;
   display: flex;
   flex-direction: column;
@@ -38,8 +36,6 @@
     width: 15rem;
     pointer-events: none;
     border-radius: 50%;
-    /* background: linear-gradient(145deg, #FAFAFA, #FAFAFA);
-    border: 3px solid #FFF; */
 }
 .spkr__content {
   width: 100%;
@@ -57,7 +53,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  /* padding-left: 2.1rem; */
 }
 .speaker__contact >a {
   font-family: 'Montserrat';
@@ -66,11 +61,6 @@
     font-size: 1rem;
 }
 .speaker__contact {
-    /* border-radius: 8px;
-    background: rgba(255, 255, 255, 0.10);
-    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.10);
-    backdrop-filter: blur( 1px );
-    -webkit-backdrop-filter: blur( 1px ); */
     background: linear-gradient(355deg, rgba(15, 15, 24, 0.36) 6.35%, rgba(188, 94, 59, 0.36) 86.17%);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 8.5px );
@@ -99,11 +89,6 @@
   font-size: 0.8rem;
 }
 
-/* .speaker__heading {
-  width: 25rem;
-  height: 8rem;
-  pointer-events: none;
-} */
 .speaker_text {
     transition: all 0.2s ease-in-out;
     text-transform: uppercase;
@@ -188,9 +173,6 @@
   .spkrs__container {
     width: 90%;
   }
-  /* .speaker__contact >a{
-    font-size: 0.7rem;
-  } */
 
 }
 

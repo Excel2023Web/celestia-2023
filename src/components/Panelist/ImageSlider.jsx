@@ -3,13 +3,11 @@ import Carousel from "react-spring-3d-carousel";
 import { v4 as uuidv4 } from 'uuid';
 import { config } from "react-spring";
 import Pic1 from "../../assets/jpg/panelist_img.jpg";
-// import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 import { useSwipeable } from "react-swipeable";
 
 function ImageSlider() {
   const [goToSlide, setGoToSlide] = useState(0);
   const [offsetRadius] = useState(1);
-  // const [showNavigation] = useState(true);
   const [carouselConfig] = useState(config.gentle);
   const [autoPlay] = useState(true);
   const [interval] = useState(2500);
@@ -80,9 +78,6 @@ function ImageSlider() {
 
   return (
     <div className="panelist__caroussel" data-aos="fade-up" {...handlers}>
-        {/* <button className="panelist__caroussel__btn" onClick={() => {
-              setGoToSlide((prevGoToSlide) => prevGoToSlide - 1);
-            }} data-aos="fade-up"><FaAngleLeft /></button> */}
         <div className="panelist__caroussel__img" data-aos="fade-up">
           <Carousel
             slides={slides}
@@ -93,10 +88,6 @@ function ImageSlider() {
             interval={interval}
           />
         </div>
-
-        {/* <button className="panelist__caroussel__btn" onClick={() => {
-              setGoToSlide((prevGoToSlide) => prevGoToSlide + 1);
-            }} data-aos="fade-up"><FaAngleRight /></button> */}
       </div>
    
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import mec_logo from "../../assets/png/mec_logo.png";
+import excel_text_logo from "../../assets/png/excel-logo-with-text.png";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FiLinkedin, FiFacebook } from "react-icons/fi";
 import { RiTwitterXFill } from "react-icons/ri";
@@ -50,7 +51,8 @@ const Footer = () => {
       <a href="https://www.excelmec.org/" target="_blank" rel="noreferrer">
         {" "}
         <img
-          src="https://www.excelmec.org/static/media/excellogo.af2452337e49fb009bb5fc27abe91b3c.svg"
+          // src="https://www.excelmec.org/static/media/excellogo.af2452337e49fb009bb5fc27abe91b3c.svg"
+          src={excel_text_logo}
           className="excel__logo_footer"
           alt=""
         />

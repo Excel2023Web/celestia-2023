@@ -10,15 +10,11 @@
   padding-bottom: 3rem;
   background: linear-gradient(174deg, #090909 20.08%, #071c44 95.51%);
   padding-top: 1rem;
-  /* opacity: 0.7; */
-  /* background-image: url("../../assets/svg/image\ 131.svg"); */
   background-image: url("../../assets/png/landing_bgnj2.png");
   background-repeat: no-repeat;
-  /* background-position: cover; */
   background-size: cover;
   background-position: center;
   transition: all 0.2s;
-  /* opacity: 2; */
 }
 .mid_container {
   display: flex;
@@ -26,19 +22,12 @@
   align-items: center;
   justify-content: space-around;
   gap: 16px;
-  /* gap: 4rem; */
 }
 .landing_button {
-  /* border-radius: 1.2rem; */
-  /* border: 1px solid #7f7f7f; */
-  /* background: rgba(255, 255, 255, 0.1); */
-  /* backdrop-filter: blur(40px); */
   background: rgba(255, 255, 255, 0.05);
-  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
   backdrop-filter: blur(4.5px);
   -webkit-backdrop-filter: blur(4.5px);
   border-radius: 10px;
-  /* border: 1px solid rgba(255, 255, 255, 0.18); */
   border: 1px solid #ffffff;
   color: #fff;
   font-family: "Work Sans";
@@ -48,16 +37,12 @@
   font-weight: 400;
   line-height: normal;
   padding: 16px 24px;
-  /* box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.5) inset; */
-  /* background: #e0e0e0; */
-  /* box-shadow: 6px 6px 15px #d3d3d3, -6px -6px 15px #ededed; */
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.57));
 }
 
 .landing_text {
   transition: all 0.2s ease-in-out;
   text-transform: uppercase;
-  /* color: #4b4b92; */
   color: #fff;
   font-family: "Coalition", sans-serif;
   font-size: 8.25rem;
@@ -67,7 +52,6 @@
   text-align: center;
   padding-top: 8rem;
   z-index: 2;
-  /* background: linear-gradient(103deg, #bdbdbd 40.55%, #a4a3a4 64.89%); */
   background: #ffffff;
   background-clip: text;
   -webkit-background-clip: text;
@@ -107,11 +91,9 @@
 .row-container {
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
   width: 100%;
-  /* margin-top: 2rem; */
   gap: 2rem;
   transition: all 0.2s ease-in-out;
 }
@@ -202,7 +184,6 @@
     font-family: Work Sans;
     font-size: 1.3rem;
     font-style: normal;
-    /* font-weight: 600; */
   }
 }
 
@@ -220,7 +201,6 @@
     font-family: Work Sans;
     font-size: 1.2rem;
     font-style: normal;
-    /* font-weight: 580; */
   }
 }
 @media screen and (max-width: 650px) {
@@ -234,7 +214,6 @@
     font-family: Work Sans;
     font-size: 1rem;
     font-style: normal;
-    /* font-weight: 570; */
   }
 }
 
@@ -268,17 +247,11 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* margin-top: 2rem; */
-    /* gap: 1rem; */
   }
 }
 
 @media screen and (max-width: 500px) {
   .landing_button {
-    /* border-radius: 1.2rem;
-    border: 1px solid #7f7f7f;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(40px); */
     color: #fff;
     font-family: "Work Sans";
     font-size: 1.2rem;
@@ -286,8 +259,6 @@
     font-weight: 550;
     line-height: normal;
     padding: 10px 22px;
-    /* box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.5) inset;
-    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.57)); */
   }
   .landing_image {
     height: 60vh;
@@ -308,7 +279,6 @@
 @media screen and (max-width: 400px) {
   .row-container {
     display: flex;
-    /* flex-direction: row; */
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -325,9 +295,7 @@
   }
   .landing_subheading {
     font-family: "Work Sans";
-    /* font-size: 0.5rem; */
     font-style: normal;
-    /* font-weight: 500; */
   }
 }
 @media screen and (max-width: 350px) {
