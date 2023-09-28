@@ -14,11 +14,15 @@ const Collaborators = () => {
             data-aos-delay="200"
             className="collab-section"
           >
+            <a 
+            href='https://www.careerlauncher.com/cochin'
+            target="blank">
             <img
               src={careerlauncher}
               alt=""
               className="c-images"
             ></img>
+            </a>
             <p>Career Launcher</p>
           </div>
         </div>
