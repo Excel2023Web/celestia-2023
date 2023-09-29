@@ -18,18 +18,10 @@ const About = () => {
         </div>
         <div className="about-body">
           <p data-aos="zoom-in">
-            The FinTech conference, conducted as a part of Excel 2022, aims to
-            educate students on matters of financial literacy and inform them of
-            the latest developments in the world of Fintech. FinNext aims to
-            bring together professionals in the world of finance and technology
-            to foster connections and build networks to make better impacts.<br/> The
-            conference is the perfect platform for investors, founders,
-            executives, academics, and startups to have a go at sharing their
-            valuable insights, gained through decades of experience in the
-            industry.FinNext also brings to the participants expert speakers,
-            invigorating panel discussions, and workshops to enhance their skill
-            set, to get them financially literate and ready to master matters of
-            personal finance.
+          Welcome to Celestia, the awe-inspiring spacial point of Excel MEC 2023, the annual techno-managerial extravaganza hosted by Govt. Model Engineering College, Kochi.
+          <br/>Celestia invites you to embark on a breathtaking odyssey into the depths of space and knowledge. We are proud to present a riveting panel discussion featuring distinguished scientists, 
+          and pioneers who have etched their names in the annals of space exploration and technology. At Celestia, we illuminate the significance of space exploration, from the captivating mysteries of 
+          celestial importance to the intricate dance of Lagrange points and beyond.
           </p>
         </div>
       </div>
