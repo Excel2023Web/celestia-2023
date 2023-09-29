@@ -6,7 +6,7 @@ const Collaborators = () => {
   return (
     <div className="collaborators__out__container" id="collaborators">
         <div className="collab-header" data-aos="zoom-in">
-          Collaborators
+          Partners
         </div>
         <div className='collab__images'> 
           <div

@@ -86,7 +86,7 @@ function Navbar() {
             smooth={true}
             duration={500}
           >
-            Collaborators
+            Partners
           </NavLink>
           <NavLink
             className="nav__link"
@@ -169,7 +169,7 @@ function Navbar() {
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              Collaborators
+              Partners
             </NavLink>
             <NavLink
               data-aos="fade-right"

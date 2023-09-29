@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 992px) {
     .collab-header {
-        font-size: 3.5rem;
+        font-size: 3.8rem;
     }
     .c-images{
         width: 8rem;
@@ -91,7 +91,7 @@
 
 @media screen and (max-width: 700px) {
     .collab-header {
-        font-size: 3.3rem;
+        font-size: 3.6rem;
     }
     .c-images{
         width: 7rem;
@@ -102,15 +102,9 @@
     }
 }
 
-@media screen and (max-width: 650px) {
-    .collab-header {
-        font-size: 3.1rem;
-    }
-}
-
 @media screen and (max-width: 600px) {
     .collab-header {
-        font-size: 2.8rem;
+        font-size: 3rem;
     }
     /* .c-images{
         width: 10rem;
@@ -124,15 +118,15 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 450px) {
     .collab-header {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 }
 @media screen and (max-width: 400px) {
-    .collab-header {
+    /* .collab-header {
         font-size: 1.8rem;
-    }
+    } */
     .c-images{
         width: 6rem;
         height: 6rem;
@@ -141,7 +135,7 @@
 
 @media only screen and (max-width: 360px) {
     .collab-header {
-        font-size: 1.5rem;
+        font-size: 2.2rem;
     }
 }
   

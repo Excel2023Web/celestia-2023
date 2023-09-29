@@ -90,7 +90,7 @@
 .vertical-timeline::before{
     background:#706A76;
     width: 0.5rem;
-    box-shadow: 1px 7px 21px 1px rgba(154, 154, 154, 0.85);
+    /* box-shadow: 1px 7px 21px 1px rgba(154, 154, 154, 0.85); */
 }
 
 .vertical-timeline--two-columns .vertical-timeline-element-icon {
