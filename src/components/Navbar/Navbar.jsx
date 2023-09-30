@@ -64,14 +64,14 @@ function Navbar() {
           >
             Speakers
           </NavLink>
-          <NavLink
+          {/* <NavLink
             className="nav__link"
             to="panelist"
             smooth={true}
             duration={500}
           >
             Panelists
-          </NavLink>
+          </NavLink> */}
           <NavLink
             className="nav__link"
             to="timeline"
@@ -144,7 +144,7 @@ function Navbar() {
             >
               Speakers
             </NavLink>
-            <NavLink
+            {/* <NavLink
               data-aos="fade-right"
               data-aos-duration="800"
               to="panelist"
@@ -152,7 +152,7 @@ function Navbar() {
               className="navmob__link"
             >
               Panelists
-            </NavLink>
+            </NavLink> */}
             <NavLink
               data-aos="fade-right"
               data-aos-duration="1000"

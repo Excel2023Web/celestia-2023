@@ -1,5 +1,5 @@
 // import img from "../png/contact_img.png";
-import { abhishek, faiza, mathew, vishnu, vaishnav} from "../gallery/contacts";
+import { abhishek, faiza, mathew, vishnu, vaishnav, eshida} from "../gallery/contacts";
 export const contactsData = [
     {
       id: 1,
@@ -52,7 +52,7 @@ export const contactsData = [
       id: 6,
       name: "Eshida Lakshmi",
       designation: "Event Head",
-      image: abhishek,
+      image: eshida,
       phone: "8848383331",
       email: "eshida66@gmail.com",
       linkedIn: "https://www.linkedin.com/in/eshida-lakshmi",

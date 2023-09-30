@@ -3,7 +3,7 @@ import "./MainPage.css";
 import {
   Navbar,
   Timeline,
-  Panelist,
+  // Panelist,
   Speakers,
   Contacts,
   About,
@@ -19,7 +19,7 @@ const MainPage = () => {
         <Landing />
         <About />
         <Speakers />
-        <Panelist />
+        {/* <Panelist /> */}
         <Timeline />
         <Collaborators />
         <Contacts />
