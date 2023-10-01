@@ -32,7 +32,8 @@
 
 .nav__logo__img {
     height: 100%;
-    width: 95px;
+    /* width: 95px; */
+    width: 55px;
 }
 
 .nav_title {
@@ -181,8 +182,8 @@ a {
         color: #ffffff;
         cursor: pointer;
     }
-    .nav__logo__img {
+    /* .nav__logo__img {
         height: 100%;
         width: 85px;
-    }
+    } */
 }

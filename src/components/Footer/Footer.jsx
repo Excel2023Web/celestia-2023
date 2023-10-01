@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import mec_logo from "../../assets/png/mec_logo.png";
-import excel_text_logo from "../../assets/png/excel-logo-with-text-2023.png";
+import excel_text_logo from "../../assets/png/excel-logo-withtext.png";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FiLinkedin, FiFacebook } from "react-icons/fi";
 import { RiTwitterXFill } from "react-icons/ri";
