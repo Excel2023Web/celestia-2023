@@ -82,6 +82,14 @@ function Navbar() {
           </NavLink>
           <NavLink
             className="nav__link"
+            to="workshop"
+            smooth={true}
+            duration={500}
+          >
+            Workshop
+          </NavLink>
+          <NavLink
+            className="nav__link"
             to="collaborators"
             smooth={true}
             duration={500}
@@ -161,6 +169,15 @@ function Navbar() {
               className="navmob__link"
             >
               Schedule
+            </NavLink>
+            <NavLink
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              to="workshop"
+              onClick={handleDrawerClose}
+              className="navmob__link"
+            >
+              Workshop
             </NavLink>
             <NavLink
               data-aos="fade-right"

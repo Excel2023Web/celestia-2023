@@ -1,19 +1,19 @@
 import img from "../png/speaker_img.png";
-import { sundararajan } from "../jpg";
+// import { sundararajan } from "../jpg";
 export const speakersData = [
     {
     id: 1,
     name: "Dr. T Sundararajan ",
-    image: sundararajan,
+    image: img,
     designation:"Retired Associate Programme Director of Space Transportation Systems, VSSC",
-    linkedIn: "https://www.linkedin.com/in/nasreen-k-basheer-6795331a5/",
+    linkedIn: "https://www.linkedin.com/in/sebin-davis-344782195",
     },
     {
     id: 2,
-    name: "Hemanth Sagar J C",
+    name: "Vennila M",
     image: img,
-    designation:"Retired Associate Programme Director of Space Transportation Systems, VSSC",
-    linkedIn: "https://www.linkedin.com/in/hemanth-sagar-j-c-292a98195",
+    designation:"Manager, Process Quality(System in-house realisation)",
+    linkedIn: "https://www.linkedin.com/in/sebin-davis-344782195",
     },
     {
     id: 3,

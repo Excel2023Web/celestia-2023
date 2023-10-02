@@ -7,7 +7,7 @@ function Workshop() {
     Aos.init({ duration: 1100 });
   }, []);
   return (
-    <div className="workshop__container_main">
+    <div className="workshop__container_main" id="workshop">
       <h2 className='contact_text' data-aos="zoom-in">
         Workshop
       </h2>

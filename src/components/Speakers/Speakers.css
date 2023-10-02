@@ -9,20 +9,20 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 1rem;
-  padding-bottom: 7rem; 
+  padding-bottom: 12rem; 
   opacity: 0.8;
 }
 .spkrs__container {
   width: 80%;
   gap: 7rem;
   display: flex;
-  justify-content:center ;
+  justify-content:flex-start ;
   flex-wrap: wrap;
   flex-direction: row; 
   padding-bottom: 2rem;
   padding-left: 3rem;
   padding-right: 3rem;
-  line-height: 0rem;
+  line-height: 1rem;
 }
 .spkr__card {
   height: 15rem;
@@ -30,11 +30,12 @@
   flex-direction: column;
   padding-left: 3rem;
   padding-top: 3rem;
-  padding-right: 3rem
+  padding-right: 3rem;
+  padding-bottom: 2rem;
 }
 .spkr__card > img {
     width: 15rem;
-    height: 13rem;
+    height: 15rem;
     pointer-events: none;
     border-radius: 50%;
 }
@@ -45,6 +46,7 @@
   justify-content: flex-start;
   gap: 1rem;
   padding-left: 1rem;
+  padding-top: 0.5rem;
 }
 .spkr__content > img {
   height: 6rem;
@@ -121,6 +123,12 @@
   .spkr__card > img {
     width: 12rem;
   }
+  .spkrs__container {
+      justify-content: center;
+  }
+  .spkr__content > img {
+    height: 10rem;
+  }
 
   .speaker__heading {
     width: 22rem;
@@ -132,6 +140,7 @@
 
   .spkr__context >p{
     font-size: 1.1rem;
+    line-height: 1.2rem;
   }
 
   .speaker_text {
@@ -163,6 +172,10 @@
     width: 15rem;
   }
 
+  .spkr__content > img {
+    height: 9rem;
+}
+
   .spkr__context >p{
     font-size: 0.9rem;
   }
@@ -189,7 +202,7 @@
   }
 
   .spkr__card {
-    width: 11rem;
+    width: 13rem;
   }
 
   .speaker__heading {
@@ -228,6 +241,9 @@
   .speaker_text {
     font-size: 2.2rem;
   }
+  /* .spkr__content > img {
+    height: 11rem;
+} */
 }
   
 @media only screen and (min-device-width: 320px) and (max-device-width: 

@@ -18,8 +18,8 @@ const Speakers = () => {
                 <div className="spkr__context">
                     <p>{contact.name}</p>
                     <p>{contact.designation}</p>
-                    <button className='speaker__contact'><a href={contact.linkedIn} target="_blank"
-                                rel="noreferrer"> CONNECT </a></button>
+                    {/* <button className='speaker__contact'><a href={contact.linkedIn} target="_blank"
+                                rel="noreferrer"> CONNECT </a></button> */}
                 </div>
             </div>
         </div>
