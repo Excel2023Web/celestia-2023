@@ -12,6 +12,7 @@
 }
 
 .ihub-img {
+  pointer-events: none;
   width: 16rem;
   border-radius: 20px;
 }
