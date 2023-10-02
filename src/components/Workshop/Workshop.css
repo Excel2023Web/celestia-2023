@@ -11,7 +11,7 @@
   padding-top: 1rem;
 }
 
-.ws__content > img {
+.ihub-img {
   width: 16rem;
   border-radius: 20px;
 }
@@ -31,7 +31,7 @@
     line-height: 40px;
 }
 ul {
-  list-style: none; /* Remove default bullets */
+  list-style: none;
 }
 ul li::before {
   content: "\2022";
@@ -47,10 +47,98 @@ ul li::before {
   -webkit-backdrop-filter: blur(7.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  padding: 3rem;
+  padding: 2.5rem;
   width: 70%;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+
+@media only screen and (max-width: 1300px) {
+
+}
+@media (min-device-width: 20px) and (max-device-width: 500px){
+   
+}
+@media only screen and (max-width: 1200px) {
+  .ihub-img {
+    width: 14rem;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+
+}
+
+@media screen and (max-width: 992px) {
+  .ws__content >ul>li {
+    line-height: 34px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /* .ws__content > a {
+    width: 15rem;
+} */
+.ihub-img {
+  width: 12rem;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .ws__content >ul>li {
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .ws__content >ul>li{
+    font-size: 1.15rem;
+  }
+  .ws__content > p {
+    font-size: 1.15rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ws__content {
+    width: 60%;
+  }
+  .ihub-img {
+    width: 10rem;
+}
+}
+
+@media screen and (max-width: 450px) {
+  .ws__content >ul>li{
+    font-size: 1.1rem;
+    line-height: 27px;
+  }
+  .ws__content > p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .ws__content >ul>li{
+    font-size: 1rem;
+  }
+  .ws__content > p {
+    font-size: 1rem;
+  }
+  .ws__content >ul>li {
+    line-height: 25px;
+}
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+
+}
+
+
+@media only screen and (device-width: 768px) {
+
 }

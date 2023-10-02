@@ -1,5 +1,5 @@
 // import img from "../png/contact_img.png";
-import { abhishek, faiza, mathew, vishnu, vaishnav, eshida} from "../gallery/contacts";
+import { abhishek, faiza, mathew, vishnu, vaishnav, eshida, sneha} from "../gallery/contacts";
 export const contactsData = [
     {
       id: 1,
@@ -61,7 +61,7 @@ export const contactsData = [
       id: 7,
       name: "Sneha Meembat",
       designation: "Event Head",
-      image: abhishek,
+      image: sneha,
       phone: "7994888288",
       email: "snehameembat2040@gmail.com",
       linkedIn: "https://www.linkedin.com/in/sneha-meembat-bb6279230",

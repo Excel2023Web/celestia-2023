@@ -12,7 +12,9 @@ function Workshop() {
         Workshop
       </h2>
       <div className="ws__content" data-aos="fade-up" aos-delay="200">
-        <img src={ihubRobo} alt="excel 2023" />
+        <a href="https://www.ihubrobotics.com/" target="blank">
+          <img className="ihub-img" src={ihubRobo} alt="excel 2023" />
+        </a>
         <h2>Workshop on Model Rocketry</h2>
         <p>
           The workshop on Model Rocketry is planned to give an overall idea of

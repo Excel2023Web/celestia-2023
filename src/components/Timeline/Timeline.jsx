@@ -209,10 +209,10 @@ const Timeline = () => {
             <h3 className="vertical-timeline-element-title">Lunch break</h3>
 
             <div className="timeline_content"></div>
-            <p className="timeline__para">
+            {/* <p className="timeline__para">
               Direct questions for each speakers regarding their area of
               expertise.
-            </p>
+            </p> */}
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work "

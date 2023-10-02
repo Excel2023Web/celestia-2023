@@ -4,3 +4,4 @@ export { default as mathew } from "./mathew1.png";
 export { default as faiza } from './faiza1.png';
 export { default as vaishnav }from "./vaishnav.png";
 export { default as eshida } from "./eshida.png";
+export { default as sneha } from "./sneha.png";
