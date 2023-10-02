@@ -19,7 +19,7 @@
     text-align: center;
 }
 .ws__content > p {
-  width: 65%;
+  width: 80%;
   text-align: center;
   font-family: var(--primary-font);
   font-size: 1.2rem;
