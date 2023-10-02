@@ -261,6 +261,7 @@ const Timeline = () => {
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
+        <h3>VR and Expo for non-registered participants open from 12:30 PM - 4:30 PM at the front desk.</h3>
       </div>
     </div>
   );
