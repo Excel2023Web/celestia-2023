@@ -1,0 +1,1 @@
+export {default as sundararajan} from './sundararajan.jpeg'
