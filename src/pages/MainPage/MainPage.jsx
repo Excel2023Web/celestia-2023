@@ -10,6 +10,7 @@ import {
   Footer,
   Landing,
   Collaborators,
+  Workshop,
 } from "../../components";
 
 const MainPage = () => {
@@ -21,6 +22,7 @@ const MainPage = () => {
         <Speakers />
         {/* <Panelist /> */}
         <Timeline />
+        <Workshop/>
         <Collaborators />
         <Contacts />
         <Footer />
