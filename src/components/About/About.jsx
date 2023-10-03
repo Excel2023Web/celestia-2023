@@ -18,7 +18,7 @@ const About = () => {
         </div>
         <div className="about-body">
           <p data-aos="zoom-in">
-          Welcome to Celestia, the awe-inspiring spacial point of Excel MEC 2023, the annual techno-managerial extravaganza hosted by Govt. Model Engineering College, Kochi.
+          Welcome to Celestia, the awe-inspiring space discussion of Excel 2023, the annual techno-managerial extravaganza hosted by Govt. Model Engineering College, Kochi.
           <br/>Celestia invites you to embark on a breathtaking odyssey into the depths of space and knowledge. We are proud to present a riveting panel discussion featuring distinguished scientists, 
           and pioneers who have etched their names in the annals of space exploration and technology. At Celestia, we illuminate the significance of space exploration, from the captivating mysteries of 
           celestial importance to the intricate dance of Lagrange points and beyond.

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './Counter.css'
 const calculateTimeLeft = () => {
-  let difference = +new Date("2023-10-14T10:00:00+05:30") - +new Date(); // MM/DD/YYYY
+  let difference = +new Date("2023-10-14T09:30:00+05:30") - +new Date(); // MM/DD/YYYY
   let timeLeft = {};
 
   if (difference > 0) {

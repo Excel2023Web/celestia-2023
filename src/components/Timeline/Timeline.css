@@ -9,7 +9,7 @@
     background-image: url("../../assets/svg/new_earth_bg.svg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom:5rem;
+    /* padding-bottom:5rem; */
     padding-top: 1rem;
 }
 
@@ -47,6 +47,8 @@
 }
 .timeline__section>h3 {
     padding: 2rem;
+    width: 80%;
+    text-align: center;
 }
 .timeline__element_txt{
     display: flex;

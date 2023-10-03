@@ -74,10 +74,16 @@ const Landing = () => {
             style={subheadingAnimation3}
           >
             <AiOutlineClockCircle fontWeight={900} />
-            11:00 AM
+            9:30 AM
           </animated.p>
         </div>
-        <animated.button className="landing_button" style={buttonAnimation}>
+        <animated.button
+          className="landing_button"
+          style={buttonAnimation}
+          onClick={() => {
+            window.open("https://forms.gle/8muSdmvmU54Ymmnc7");
+          }}
+        >
           Register Now
         </animated.button>
       </div>
