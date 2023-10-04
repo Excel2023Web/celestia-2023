@@ -1,4 +1,4 @@
-// import img from "../png/speaker_img.png";
+import img from "../png/speaker_img.png";
 import { vennila, sundararajan, remiya, senan } from "../gallery/speakers";
 export const speakersData = [
     {
@@ -29,11 +29,11 @@ export const speakersData = [
     designation:"Associate Professor, Department of Earth and Space Sciences, IIST",
     linkedIn: "https://www.linkedin.com/in/sania-maria-sabu-1b059a1b2/",
     },
-    // {
-    // id: 5,
-    // name: "Shri. Kiran Mohan",
-    // image: img,
-    // designation:"Deputy Project Director, LPSC ISRO",
-    // linkedIn: "https://www.linkedin.com/in/sebin-davis-344782195",
-    // },
+    {
+    id: 5,
+    name: "Shri. Kiran Mohan",
+    image: img,
+    designation:"Deputy Project Director, LPSC ISRO",
+    linkedIn: "https://www.linkedin.com/in/sebin-davis-344782195",
+    },
 ]

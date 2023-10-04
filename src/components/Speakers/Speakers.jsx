@@ -16,8 +16,8 @@ const Speakers = () => {
             <div className="spkr__content">
                 <img src={verticalLine} alt=""/>
                 <div className="spkr__context">
-                    <p>{contact.name}</p>
-                    <p>{contact.designation}</p>
+                    <p className='spkr__context_name'>{contact.name}</p>
+                    <p className='spkr__context_designation'>{contact.designation}</p>
                     {/* <button className='speaker__contact'><a href={contact.linkedIn} target="_blank"
                                 rel="noreferrer"> CONNECT </a></button> */}
                 </div>

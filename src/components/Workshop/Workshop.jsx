@@ -19,7 +19,7 @@ function Workshop() {
         <p>
           The workshop on Model Rocketry is planned to give an overall idea of
           the basic science, technologies, and software used in model rocketry.
-          Participants will be able to design, simulate, assemble, and launch a
+          Participants will be able to design, simulate, assemble and launch a
           model rocket on their own.
         </p>
         <ul>
