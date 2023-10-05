@@ -77,7 +77,7 @@ const Landing = () => {
             9:30 AM
           </animated.p>
         </div>
-        <animated.button
+        {/* <animated.button
           className="landing_button"
           style={buttonAnimation}
           onClick={() => {
@@ -85,7 +85,11 @@ const Landing = () => {
           }}
         >
           Register Now
-        </animated.button>
+        </animated.button> */}
+        <p className="cm_n_register_txt">
+          Registrations shall resume at the front desk on October 6th 2023 from
+          9:30 AM- 11:30 AM.
+        </p>
       </div>
       <Stars />
     </div>
