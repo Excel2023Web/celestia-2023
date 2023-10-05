@@ -87,8 +87,7 @@ const Landing = () => {
           Register Now
         </animated.button> */}
         <p className="cm_n_register_txt">
-          Registrations shall resume at the front desk on October 6th 2023 from
-          9:30 AM- 11:30 AM.
+          Registrations will resume on the 12th of October 2023. Stay tuned!
         </p>
       </div>
       <Stars />
