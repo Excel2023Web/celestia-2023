@@ -38,12 +38,12 @@ const Landing = () => {
     delay: 1100,
   });
 
-  const buttonAnimation = useSpring({
-    from: { opacity: 0, transform: "scale(0.6)" },
-    to: { opacity: 1, transform: "scale(1)" },
-    config: { duration: 1000 },
-    delay: 3000,
-  });
+  // const buttonAnimation = useSpring({
+  //   from: { opacity: 0, transform: "scale(0.6)" },
+  //   to: { opacity: 1, transform: "scale(1)" },
+  //   config: { duration: 1000 },
+  //   delay: 3000,
+  // });
 
   return (
     <div className="landing_container" id="home">
@@ -77,7 +77,7 @@ const Landing = () => {
             9:30 AM
           </animated.p>
         </div>
-        <animated.button
+        {/* <animated.button
           className="landing_button"
           style={buttonAnimation}
           onClick={() => {
@@ -85,7 +85,10 @@ const Landing = () => {
           }}
         >
           Register Now
-        </animated.button>
+        </animated.button> */}
+        <p className="cm_n_register_txt">
+          Registrations will resume on the 12th of October 2023. Stay tuned!
+        </p>
       </div>
       <Stars />
     </div>
