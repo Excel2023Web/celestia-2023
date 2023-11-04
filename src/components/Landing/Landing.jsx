@@ -87,7 +87,7 @@ const Landing = () => {
           Register Now
         </animated.button> */}
         <p className="cm_n_register_txt">
-          Registrations shall reopen for the event on 12th October from 3:30 PM at the front desk.
+          Registrations Closed
         </p>
       </div>
       <Stars />
